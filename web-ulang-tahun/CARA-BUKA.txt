@@ -1,0 +1,22 @@
+WEB ULANG TAHUN ROMANTIS — CARA MEMBUKA
+
+1. Ekstrak ZIP ini (jangan buka index.html langsung dari dalam ZIP).
+2. Buka folder web-ulang-tahun di VS Code.
+3. Klik dua kali index.html di File Explorer untuk membukanya di Chrome/Edge.
+   Atau gunakan ekstensi Live Server: klik kanan index.html > Open with Live Server.
+4. Di layar hadiah, klik "Buka hadiahmu". Kode awal: 1234.
+   Jika lupa, klik "Lewati kode dan buka hadiah".
+
+CARA MENGGANTI ISI
+- Edit index.html di VS Code. Cari bagian "const data".
+- Ganti namaPacar, tanggal, namaKamu, kodeRahasia, pertanyaan,
+  harapan, keterangan foto, dan alasan sesuai cerita kalian.
+- Simpan foto di folder foto dengan nama:
+  utama.jpg, kita.jpg, video-cover.jpg,
+  kenangan-1.jpg hingga kenangan-6.jpg.
+- Simpan video bernama video-kita.mp4 di samping index.html.
+- Musik opsional: musik.mp3 di samping index.html.
+
+Jika foto/video belum ditambahkan, website tetap bisa dibuka dan
+akan menampilkan desain pengganti. Video dan musik baru dapat diputar
+setelah file pribadimu dimasukkan.
