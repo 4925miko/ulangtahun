@@ -1,264 +1,987 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="id">
 <head>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="theme-color" content="#331c2f"><title>Untuk Kamu, Selamanya ♡</title>
-<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap" rel="stylesheet">
-<style>
-:root{--wine:#412337;--rose:#ad617a;--pink:#e8b6bd;--cream:#fff8f2;--ink:#462b3b;--muted:#806979;--gold:#b99168}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--cream);color:var(--ink);font:16px/1.75 'DM Sans',sans-serif;overflow-x:hidden}button,a{font:inherit}button{cursor:pointer}a{color:inherit;text-decoration:none}.serif,h1,h2,h3{font-family:'Playfair Display',serif;font-weight:500}h2{font-size:clamp(2.4rem,5vw,4.6rem);line-height:1.15;margin:0 0 22px}p{margin:0 0 18px}.eyebrow{text-transform:uppercase;letter-spacing:.23em;font-size:.7rem;font-weight:700;color:var(--rose)}.wrap{max-width:1180px;margin:auto;padding:0 28px}.nav{position:absolute;z-index:9;left:0;right:0;top:0;color:white;display:flex;justify-content:space-between;align-items:center;padding:30px max(28px,calc((100vw - 1180px)/2 + 28px));font-size:.75rem;letter-spacing:.16em;text-transform:uppercase}.brand{font-family:'Playfair Display',serif;font-size:1.35rem;letter-spacing:0;text-transform:none}.navlinks{display:flex;gap:26px}.navlinks a:hover{color:#ffd6d9}.hero{min-height:100svh;position:relative;display:flex;align-items:center;overflow:hidden;color:#fff;background:radial-gradient(circle at 68% 45%,#86516d 0%,transparent 32%),radial-gradient(circle at 17% 15%,#753d5a,transparent 45%),linear-gradient(130deg,#28192c,#593048 65%,#2e1d30)}.hero:before{content:'';position:absolute;inset:0;background:url('foto/utama.jpg') center 40%/cover;opacity:.23;filter:saturate(.7)}.hero:after{content:'';position:absolute;inset:0;background:linear-gradient(90deg,rgba(32,17,32,.88),rgba(32,17,32,.25) 75%)}.hero-inner{position:relative;z-index:2;width:100%;padding-top:110px;padding-bottom:90px}.hero-copy{max-width:740px}.hero .eyebrow{color:#f3c6c8}.hero h1{font-size:clamp(4rem,10vw,9.5rem);letter-spacing:-.055em;line-height:.97;margin:18px 0 28px}.hero h1 em{font-weight:400;color:#f4cbd2}.hero p{max-width:510px;color:#f8e5e8;font-size:1.08rem}.button{display:inline-flex;align-items:center;gap:16px;background:#f2d0cc;color:#45283a;padding:15px 24px;border-radius:50px;font-weight:700;font-size:.88rem;border:1px solid transparent;transition:.25s}.button:hover{transform:translateY(-3px);background:#fff}.hero-bottom{position:absolute;z-index:3;bottom:27px;left:0;right:0;display:flex;justify-content:space-between;font-size:.73rem;letter-spacing:.15em;text-transform:uppercase;color:#f4dadd}.scroll-line{display:inline-block;width:46px;height:1px;background:currentColor;vertical-align:middle;margin-right:12px}.star{position:absolute;z-index:2;color:#ffd8da;animation:twinkle 3s ease-in-out infinite alternate;font-size:20px}.s1{top:18%;left:60%}.s2{bottom:19%;right:10%;animation-delay:1s}.s3{top:38%;right:18%;animation-delay:1.7s}@keyframes twinkle{to{opacity:.2;transform:scale(.5) rotate(30deg)}}section{padding:110px 0}.intro{text-align:center}.intro .wrap{max-width:780px}.intro p:not(.eyebrow){color:var(--muted);font-size:1.06rem}.flourish{color:var(--rose);font-size:1.5rem;letter-spacing:.35em;margin:25px}.story{background:#f3e9e5}.story-grid{display:grid;grid-template-columns:1fr 1fr;align-items:center;gap:9%}.story-photo{height:590px;position:relative;border-radius:220px 220px 10px 10px;background:linear-gradient(145deg,#bd8b98,#71445c);overflow:hidden;box-shadow:20px 20px 0 #e3d0cc}.story-photo img,.photo img{width:100%;height:100%;object-fit:cover}.photo-fallback{position:absolute;inset:0;display:grid;place-content:center;text-align:center;color:#fff4f2;font-family:'Playfair Display',serif;font-size:2rem;padding:24px}.story-photo img,.photo img{position:relative;z-index:1}.story-copy p:not(.eyebrow){color:#745c69}.quote{font-family:'Playfair Display',serif;font-size:1.5rem;line-height:1.5;color:var(--wine);font-style:italic;border-left:2px solid var(--rose);padding-left:25px;margin:30px 0}.gallery{text-align:center}.gallery .subtitle{color:var(--muted);max-width:580px;margin:0 auto 45px}.gallery-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;text-align:left}.photo{height:390px;background:linear-gradient(140deg,#d4a6a9,#82596e);position:relative;overflow:hidden;border-radius:8px}.photo:nth-child(2){background:linear-gradient(140deg,#a6788e,#e5c0b7)}.photo:nth-child(3){background:linear-gradient(140deg,#dfb9a7,#9c5a70)}.photo img{transition:transform .6s}.photo:hover img{transform:scale(1.06)}.caption{padding:16px 2px;font-size:.85rem;color:var(--muted)}.caption b{color:var(--ink);font-weight:600}.reasons{background:var(--wine);color:#fff}.reasons .eyebrow{color:#efc1ca}.reason-top{text-align:center;max-width:650px;margin:0 auto 55px}.reason-top p:last-child{color:#dcc8d2}.reason-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.reason{border:1px solid #ffffff35;padding:32px;min-height:245px;background:#ffffff08;transition:.25s}.reason:hover{background:#ffffff14;transform:translateY(-5px)}.reason span{font:italic 2.6rem 'Playfair Display',serif;color:#ecc0c7}.reason h3{font-size:1.5rem;margin:8px 0}.reason p{color:#e8d9df;font-size:.9rem}.letter{background:#f7eee9}.letter-card{max-width:850px;margin:auto;background:#fffdf9;padding:clamp(32px,8vw,95px);box-shadow:0 22px 80px #51334616;position:relative;transform:rotate(-.7deg)}.letter-card:before{content:'♡';position:absolute;right:35px;top:25px;color:#bd8395;font-size:2.4rem}.letter-card p{color:#685361}.letter-card .letter-text{font-family:'Playfair Display',serif;font-size:1.18rem;line-height:1.95}.signature{font:italic 1.65rem 'Playfair Display',serif;color:var(--rose);margin-top:35px}.surprise{text-align:center;background:radial-gradient(circle at center,#7e4965,#3b2338 75%);color:white;position:relative;overflow:hidden}.surprise p{max-width:610px;margin:0 auto 30px;color:#f1dce3}.surprise .eyebrow{color:#f4c5cb}.surprise .button{border:0}.secret{max-width:600px;margin:30px auto 0;padding:30px;border:1px solid #ffffff55;background:#ffffff16;border-radius:14px;animation:rise .6s ease}.secret[hidden]{display:none}.secret p{margin:0;color:#fff}.footer{text-align:center;background:#301c30;color:#eedde3;padding:35px;font-size:.82rem}.footer .serif{font-size:1.4rem}.floating-heart{position:fixed;z-index:40;pointer-events:none;animation:floatUp 2.7s ease-out forwards;color:#e8a9b7;font-size:22px}@keyframes floatUp{to{opacity:0;transform:translateY(-170px) rotate(40deg)}}@keyframes rise{from{opacity:0;transform:translateY(20px)}to{opacity:1;transform:none}}.reveal{opacity:0;transform:translateY(30px);transition:opacity .8s,transform .8s}.reveal.visible{opacity:1;transform:none}.music{position:fixed;z-index:30;right:20px;bottom:20px;border:1px solid #ffffff90;background:#4c2b43eb;color:white;border-radius:50px;padding:10px 15px;box-shadow:0 8px 24px #0003;font-size:.8rem}@media(max-width:760px){.navlinks{display:none}.hero h1{font-size:clamp(3.9rem,17vw,6rem)}.hero:after{background:linear-gradient(90deg,#201120c9,#20112075)}section{padding:75px 0}.story-grid{grid-template-columns:1fr;gap:55px}.story-photo{height:420px;max-width:420px;width:90%;margin:auto}.gallery-grid{grid-template-columns:1fr 1fr}.photo{height:300px}.reason-grid{grid-template-columns:1fr}.reason{min-height:auto}.hero-bottom{font-size:.6rem}}@media(max-width:480px){.gallery-grid{grid-template-columns:1fr}.photo{height:420px}.hero-bottom span:last-child{display:none}.letter-card{transform:none}.wrap{padding:0 22px}}@media(prefers-reduced-motion:reduce){*,*:before,*:after{animation-duration:.01ms!important;transition-duration:.01ms!important;scroll-behavior:auto!important}.reveal{opacity:1;transform:none}}
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#392339">
+  <title>Selamat Ulang Tahun, Sayang ♡</title>
 
-/* Pengalaman interaktif */
-.gate{position:fixed;z-index:100;inset:0;display:none;place-items:center;padding:25px;background:radial-gradient(circle at 50% 35%,#80506b,#2c1b31 72%);color:white;text-align:center;transition:opacity .8s,visibility .8s}.gate.closed{opacity:0;visibility:hidden;pointer-events:none}.gate-stars{position:absolute;inset:0;overflow:hidden;pointer-events:none}.gate-stars span{position:absolute;color:#fff6;font-size:clamp(16px,4vw,44px);animation:twinkle 3s infinite alternate}.gate-content{position:relative;max-width:660px}.gate .eyebrow{color:#f5cbd6}.gate h2{font-size:clamp(3.2rem,9vw,7rem);margin:10px 0 20px}.gate p{color:#f7e4e8}.gift{width:142px;height:142px;margin:0 auto 24px;border-radius:28px;background:linear-gradient(140deg,#f3cbd0,#b97d91);display:grid;place-content:center;font-size:5rem;box-shadow:0 25px 70px #110d2066;animation:bob 3s ease-in-out infinite;transform:rotate(-8deg)}@keyframes bob{50%{transform:translateY(-12px) rotate(4deg)}}.gate .button{margin-top:18px}.stepper{position:fixed;z-index:25;left:50%;bottom:17px;transform:translateX(-50%);display:flex;gap:7px;background:#fffdf2d9;backdrop-filter:blur(14px);padding:9px 12px;border-radius:50px;box-shadow:0 5px 25px #25152927}.stepper a{width:8px;height:8px;background:#cbaeb8;border-radius:50%;transition:.3s}.stepper a.active{width:24px;background:#9b526d}.story-prompt{color:var(--rose);font-weight:700;letter-spacing:.08em;font-size:.77rem;text-transform:uppercase;margin-bottom:16px}.minigame{background:#fcf5f0;text-align:center}.minigame .wrap{max-width:850px}.game-card{background:#fff;box-shadow:0 20px 65px #613e4b16;padding:clamp(25px,6vw,55px);border-radius:25px}.game-card p{color:var(--muted)}.choices{display:grid;grid-template-columns:repeat(2,1fr);gap:13px;margin-top:30px}.choice{padding:17px;border:1px solid #e6cdd4;border-radius:14px;background:#fff7f6;color:var(--wine);font-weight:700;transition:.25s}.choice:hover{transform:translateY(-3px);background:#f2d6dc}.choice.correct{background:#e9f5e9;border-color:#81a683}.choice.wrong{background:#fce6e4;border-color:#d78e8e}.game-feedback{min-height:35px;margin-top:20px;color:var(--rose);font-weight:700}.typewriter{min-height:2.7em}.typed-cursor:after{content:'|';color:var(--rose);animation:blink .7s infinite}@keyframes blink{50%{opacity:0}}.gallery .photo{cursor:pointer}.gallery .photo:after{content:'Lihat kenangan ↗';position:absolute;z-index:3;bottom:18px;right:18px;color:#fff;background:#392039b8;padding:8px 13px;border-radius:30px;font-size:.75rem}.lightbox{position:fixed;z-index:90;inset:0;background:#1c1221eb;display:grid;place-items:center;padding:25px}.lightbox[hidden]{display:none}.lightbox-panel{width:min(780px,100%);text-align:center;color:white}.lightbox img{display:block;width:100%;max-height:70vh;object-fit:contain;border-radius:12px;background:#684b5b}.lightbox h3{font-size:1.9rem;margin:14px 0 0}.lightbox p{color:#f3dfe6}.lightbox-close,.lightbox-arrow{border:1px solid #fff8;border-radius:50%;background:#41283ee8;color:white;width:42px;height:42px;font-size:1.4rem}.lightbox-close{position:absolute;top:20px;right:20px}.lightbox-controls{display:flex;align-items:center;justify-content:center;gap:25px;margin-top:15px}.lightbox-controls span{font-size:.85rem}.wish{background:#eddbd9;text-align:center}.wish .wrap{max-width:760px}.wish-jar{margin:32px auto;display:block;border:0;width:150px;height:150px;border-radius:50%;font-size:4rem;background:linear-gradient(150deg,#fff,#efc5cd);box-shadow:0 15px 40px #803f602a;transition:.3s}.wish-jar:hover{transform:scale(1.08) rotate(-5deg)}.wish-output{font:italic 1.55rem/1.5 'Playfair Display',serif;min-height:100px;color:var(--wine)}.confetti{position:fixed;z-index:110;top:-20px;width:9px;height:15px;pointer-events:none;animation:fall 3.7s linear forwards}@keyframes fall{to{transform:translateY(110vh) rotate(750deg);opacity:.8}}@media(max-width:540px){.choices{grid-template-columns:1fr}.stepper{bottom:9px}.music{bottom:53px}.lightbox img{max-height:58vh}}
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap" rel="stylesheet">
 
-/* Taman kenangan: gerak halus, bunga, dan tipografi */
-#petalCanvas{position:fixed;inset:0;z-index:12;pointer-events:none;width:100%;height:100%;opacity:.78}.scroll-progress{position:fixed;top:0;left:0;width:0;height:3px;z-index:120;background:linear-gradient(90deg,#f4c2cc,#f7dda1,#cf879f);box-shadow:0 0 12px #f8d3db}.flower-corner{position:absolute;z-index:2;width:clamp(160px,27vw,370px);height:auto;pointer-events:none;filter:drop-shadow(0 16px 20px #170c1b3d);opacity:.85}.flower-corner.left{left:-70px;bottom:-50px;transform:rotate(-22deg)}.flower-corner.right{right:-95px;top:9%;transform:rotate(125deg) scale(.78)}.flower-stem{stroke:#a1aa83;stroke-width:3;fill:none;stroke-linecap:round;stroke-dasharray:540;stroke-dashoffset:540;animation:growStem 2.2s ease-out .4s forwards}.flower-leaf{fill:#9baa8d;transform-origin:center;animation:leafGrow 1.4s backwards 1.3s}.flower-petal{fill:#f3b6c2;transform-box:fill-box;transform-origin:center;animation:bloom 1.5s cubic-bezier(.2,.8,.2,1) backwards}.flower-petal:nth-child(2n){fill:#f9d6ce}.flower-core{fill:#f5dca5;animation:bloom 1.5s backwards 1.3s}@keyframes growStem{to{stroke-dashoffset:0}}@keyframes bloom{from{opacity:0;transform:scale(.05) rotate(-65deg)}to{opacity:1;transform:scale(1) rotate(0)}}@keyframes leafGrow{from{opacity:0;transform:scale(0)}to{opacity:1;transform:scale(1)}}.hero-copy{position:relative}.hero .eyebrow{animation:fadeSlide .9s ease both .25s}.hero h1{animation:fadeSlide 1.1s ease both .45s}.hero-copy>p{animation:fadeSlide 1.1s ease both .8s}.hero .button{animation:fadeSlide 1.1s ease both 1.05s}@keyframes fadeSlide{from{opacity:0;transform:translateY(24px);filter:blur(8px)}to{opacity:1;transform:none;filter:blur(0)}}.hero-name{display:inline-block;position:relative}.hero-name:after{content:'';position:absolute;height:2px;bottom:0;left:2%;width:0;background:#f1c1ca;box-shadow:0 0 14px #f8d2dc;animation:underline 1.8s ease forwards 1.8s}@keyframes underline{to{width:96%}}.type-line{min-height:2.7em}.type-line .cursor{display:inline-block;width:2px;height:1em;background:currentColor;vertical-align:-.12em;margin-left:3px;animation:blink .8s step-end infinite}.scroll-cue{position:absolute;bottom:85px;left:50%;z-index:3;color:#fff9;transform:translateX(-50%);font-size:22px;animation:cue 2s ease-in-out infinite}@keyframes cue{50%{transform:translate(-50%,10px);opacity:.4}}.story-photo{transition:transform .8s cubic-bezier(.2,.7,.2,1),box-shadow .8s}.story-photo:hover{transform:translateY(-9px) rotate(1deg);box-shadow:25px 30px 0 #e3d0cc}.story-photo:after,.photo:before{content:'';position:absolute;z-index:2;inset:0;background:linear-gradient(120deg,transparent 25%,#fff5 48%,transparent 67%);transform:translateX(-130%);transition:transform .85s;pointer-events:none}.story-photo:hover:after,.photo:hover:before{transform:translateX(130%)}.gallery .photo{box-shadow:0 16px 35px #51334818;transition:transform .45s,box-shadow .45s}.gallery .photo:hover{transform:translateY(-9px) rotate(-1deg);box-shadow:0 25px 45px #51334830}.gallery-grid .reveal:nth-child(2n){transition-delay:.12s}.gallery-grid .reveal:nth-child(3n){transition-delay:.22s}.reason-grid .reveal:nth-child(3n+2){transition-delay:.1s}.reason-grid .reveal:nth-child(3n){transition-delay:.2s}.decorative-divider{height:130px;position:relative;background:linear-gradient(#fff8f2,#f3e9e5);overflow:hidden}.decorative-divider:before{content:'✿  ✧  ❀  ✧  ✿';position:absolute;left:0;right:0;top:26px;text-align:center;letter-spacing:1.2em;color:#bd8499;font-size:30px;animation:gentle 4s ease-in-out infinite}@keyframes gentle{50%{transform:translateY(10px)}}.letter-card:after{content:'❀';position:absolute;bottom:15px;right:32px;font-size:4rem;color:#dfb8bd88;transform:rotate(-20deg)}.secret{animation:unfold .65s cubic-bezier(.2,.8,.2,1)}@keyframes unfold{from{opacity:0;transform:scale(.88) translateY(18px);filter:blur(6px)}to{opacity:1;transform:none;filter:blur(0)}}.wish-jar{animation:heartbeat 3.5s ease-in-out infinite}@keyframes heartbeat{10%,30%{transform:scale(1.06)}20%,40%,100%{transform:scale(1)}}.wish-jar:hover{animation:none}.gate .gift{position:relative}.gate .gift:before,.gate .gift:after{content:'✦';position:absolute;color:#f9d7a5;font-size:27px;animation:twinkle 1.8s alternate infinite}.gate .gift:before{top:-30px;left:-22px}.gate .gift:after{bottom:-14px;right:-28px;animation-delay:.6s}.music{backdrop-filter:blur(12px)}@media(max-width:760px){.flower-corner.right{right:-110px;top:15%}.flower-corner.left{left:-95px;bottom:5%}.hero-copy{z-index:3}.hero .button{position:relative;z-index:4}}@media(prefers-reduced-motion:reduce){.flower-stem{stroke-dashoffset:0}.flower-petal,.flower-core,.flower-leaf{opacity:1;transform:none}#petalCanvas{display:none}}
-
-[hidden]{display:none!important}
-/* Pembuka selalu bisa digulir dan tombol utama tetap terlihat */
-.gate.ready{display:flex;align-items:flex-start;justify-content:center;overflow-y:auto;overscroll-behavior:contain}
-.gate-content{width:min(620px,100%);max-width:620px;margin:auto;padding:20px 0 30px}
-.gate h2{font-size:clamp(2.6rem,5.2vw,4.6rem);line-height:1.07;margin:10px 0 14px}
-.gate .gift{width:105px;height:105px;font-size:3.5rem;margin:0 auto 16px}
-.gate p{margin-bottom:12px}.gate .button{margin-top:8px}
-.code-panel{max-height:none}
-.reveal{opacity:1;transform:none}.js-ready .reveal:not(.visible){opacity:0;transform:translateY(30px)}
-@media(max-height:760px){.gate-content{margin:0 auto}.gate h2{font-size:clamp(2.3rem,4.5vw,3.6rem)}.gate .gift{width:75px;height:75px;font-size:2.5rem}.gate p{font-size:.9rem}}
-/* Kartu kejutan dan bioskop kenangan */
-.gate-content{width:min(640px,100%)}.code-panel{display:none;margin:20px auto 0;max-width:330px;background:#ffffff17;border:1px solid #fff5;border-radius:24px;padding:24px;backdrop-filter:blur(15px)}.code-panel.visible{display:block;animation:unfold .45s ease}.code-panel h3{font-size:1.5rem;margin:0 0 8px}.code-dots{display:flex;justify-content:center;gap:12px;margin:20px}.code-dots i{width:13px;height:13px;border:1px solid #f7c9d1;border-radius:50%;background:transparent}.code-dots i.filled{background:#f7c9d1;box-shadow:0 0 13px #f7c9d1}.keypad{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;max-width:240px;margin:auto}.keypad button{height:48px;border-radius:50px;border:1px solid #ffffff40;background:#ffffff17;color:white;font-size:1.1rem}.keypad button:hover{background:#ffffff35}.keypad .key-action{font-size:.85rem}.code-feedback{font-size:.78rem;min-height:24px;color:#ffe0e8;margin:12px 0 0}.gate .skip{border:0;background:transparent;color:#efd3df;text-decoration:underline;margin-top:9px;font-size:.78rem}.gate.unlocking .gift{animation:giftOpen .8s forwards}@keyframes giftOpen{60%{transform:scale(1.5) rotate(10deg);filter:brightness(1.8)}100%{transform:scale(4);opacity:0}}
-.surprise-menu{background:#281a2d;color:#fff;text-align:center;position:relative;overflow:hidden}.surprise-menu:before{content:'';position:absolute;inset:0;background:radial-gradient(circle at 50% 30%,#7b45645c,transparent 55%);pointer-events:none}.surprise-menu .eyebrow{color:#efc0cc}.surprise-menu .wrap{position:relative}.surprise-menu .subtitle{color:#e5d1da;margin:0 auto 40px;max-width:540px}.surprise-options{display:grid;grid-template-columns:repeat(4,1fr);gap:17px}.surprise-option{color:#fff;text-align:center;border:1px solid #f6d0dc57;background:#ffffff0b;border-radius:20px;padding:28px 12px;min-height:235px;position:relative;overflow:hidden;transition:transform .3s,background .3s,box-shadow .3s}.surprise-option:hover,.surprise-option:focus-visible{transform:translateY(-10px);background:#ffffff1d;box-shadow:0 20px 35px #0004}.surprise-option:before{content:'';position:absolute;width:90px;height:90px;border-radius:50%;background:#f2b5c247;filter:blur(35px);top:0;left:50%;transform:translateX(-50%)}.surprise-option .icon{display:block;font-size:3.5rem;line-height:1.4;filter:drop-shadow(0 8px 12px #0005);transition:transform .3s}.surprise-option:hover .icon{transform:scale(1.14) rotate(-8deg)}.surprise-option strong{display:block;font:1.45rem 'Playfair Display',serif;margin:8px 0}.surprise-option small{color:#e5d0db}.memory-film{background:#251a2a;color:white;text-align:center;position:relative;overflow:hidden}.memory-film:before{content:'';position:absolute;inset:0;background:radial-gradient(circle at 50% 35%,#80486640,transparent 55%),radial-gradient(circle at 15% 80%,#9c6b7030,transparent 35%);pointer-events:none}.memory-film .wrap{position:relative}.memory-film .eyebrow{color:#f0bbcb}.memory-film .subtitle{color:#e4d2dc;max-width:620px;margin:0 auto 40px}.film-frame{width:min(880px,100%);margin:auto;border:1px solid #ffffff42;padding:10px;background:#150f1dc7;border-radius:18px;box-shadow:0 30px 90px #0008}.film-screen{aspect-ratio:16/9;position:relative;border-radius:10px;overflow:hidden;background:radial-gradient(circle at center,#74425b,#1f1625 70%)}.film-screen video{position:absolute;inset:0;width:100%;height:100%;object-fit:contain;background:#0e0b11}.film-placeholder{position:absolute;inset:0;display:grid;place-content:center;padding:30px;background:linear-gradient(#2a1b3266,#1a1127bc),url('foto/video-cover.jpg') center/cover}.film-placeholder .film-heart{font-size:4rem;animation:heartbeat 3s infinite}.film-placeholder p{margin:5px 0 0;color:#fff;font-family:'Playfair Display',serif;font-size:clamp(1.3rem,3vw,2.6rem)}.film-placeholder small{color:#e6cbd7}.film-play{position:absolute;z-index:2;left:50%;top:50%;transform:translate(-50%,-50%);width:76px;height:76px;border:1px solid #fff9;background:#ffffff33;backdrop-filter:blur(12px);border-radius:50%;color:white;font-size:1.9rem;transition:.25s}.film-play:hover{transform:translate(-50%,-50%) scale(1.12);background:#ffffff55}.film-controls{display:flex;align-items:center;justify-content:space-between;padding:12px 9px 4px;color:#efcfda;font-size:.8rem}.film-controls button{border:0;background:transparent;color:#fff;font-size:1.1rem}.filmstrip{display:flex;gap:12px;overflow-x:auto;padding:24px 0 8px;scroll-snap-type:x mandatory;scrollbar-color:#a7758a transparent}.filmstrip-card{position:relative;flex:0 0 clamp(130px,23vw,240px);aspect-ratio:4/3;scroll-snap-align:center;border:5px solid #f7ecdf;background:linear-gradient(140deg,#b67994,#6d405a);transform:rotate(var(--tilt));box-shadow:0 10px 25px #0005;transition:.25s}.filmstrip-card:hover{transform:rotate(0) translateY(-7px)}.filmstrip-card img{width:100%;height:100%;object-fit:cover}.filmstrip-card span{position:absolute;inset:0;display:grid;place-items:center;color:#fff;font:1.2rem 'Playfair Display',serif}.filmstrip-card img{position:relative;z-index:1}.video-note{font-size:.75rem;color:#cbb5c2;margin-top:14px}.section-glow{position:absolute;width:330px;height:330px;border-radius:50%;background:#f2a8c015;filter:blur(45px);pointer-events:none;right:-140px;top:30px}@media(max-width:760px){.surprise-options{grid-template-columns:repeat(2,1fr)}.surprise-option{min-height:190px;padding:17px 10px}.surprise-option .icon{font-size:2.8rem}}@media(max-width:420px){.surprise-option strong{font-size:1.2rem}.surprise-option small{font-size:.7rem}.film-controls{font-size:.65rem}}@media(prefers-reduced-motion:reduce){.gate.unlocking .gift{opacity:1;transform:none}}
-
-/* Efek tulisan diketik per karakter */
-.type-writing::after{content:'|';display:inline;color:#cf829b;font-family:Georgia,serif;font-weight:400;animation:typeBlink .65s steps(1) infinite}
-@keyframes typeBlink{50%{opacity:0}}
-@media(prefers-reduced-motion:reduce){.type-writing::after{display:none}}
-
-/* Surat cinta dengan amplop, segel, dan tinta yang bergerak */
-.letter{background:radial-gradient(circle at 85% 20%,#f3d6d7,#f7eee9 45%)}
-.letter-card{border:1px solid #e9d4cf;background:repeating-linear-gradient(0deg,#fffdf9 0,#fffdf9 41px,#f5e9e9 42px);box-shadow:0 30px 75px #754b5925}
-.letter-card:before{content:'✿';font-size:4.6rem;right:30px;top:20px;color:#dba4b47c}
-.letter-card:after{content:'❀';font-size:4.2rem;bottom:10px;right:25px;color:#dba4b47c}
-.letter-envelope{position:relative;display:flex;flex-direction:column;align-items:center;justify-content:center;width:min(390px,100%);min-height:240px;margin:30px auto 20px;padding:35px 25px;border:1px solid #d7a6ae;border-radius:9px;background:linear-gradient(160deg,#fff5f0,#efc7cf);color:#59344b;box-shadow:0 18px 30px #773d5129;overflow:hidden;transform:rotate(-2deg);transition:transform .5s,box-shadow .5s}
-.letter-envelope:hover{transform:rotate(0) translateY(-8px);box-shadow:0 25px 40px #773d5140}
-.letter-envelope:before,.letter-envelope:after{content:'';position:absolute;width:75%;height:1px;background:#bd83927d;top:44%;transform:rotate(29deg)}
-.letter-envelope:before{left:-27%}.letter-envelope:after{right:-27%;transform:rotate(-29deg)}
-.envelope-top{position:absolute;top:0;left:0;right:0;height:46%;background:linear-gradient(150deg,#fbe1dd,#e9b5c1);clip-path:polygon(0 0,100% 0,50% 100%);filter:drop-shadow(0 3px 3px #7145522a)}
-.wax-seal{position:relative;z-index:2;width:54px;height:54px;display:grid;place-items:center;margin:30px 0 14px;border-radius:50%;background:linear-gradient(135deg,#b75172,#823954);color:white;font:2rem 'Playfair Display',serif;box-shadow:0 4px 12px #69344c5c}
-.envelope-title,.envelope-hint{position:relative;z-index:2}.envelope-title{font:italic 1.45rem 'Playfair Display',serif}.envelope-hint{font-size:.78rem;letter-spacing:.07em;margin-top:7px;color:#81546a}
-.letter-card.js-letter:not(.opened) .letter-text,.letter-card.js-letter:not(.opened) .signature{display:none}
-.letter-card.opened .letter-text{animation:letterUnfold .75s ease both}
-.letter-card.opened .signature{animation:letterUnfold .8s ease both}
-@keyframes letterUnfold{from{opacity:0;transform:translateY(25px);filter:blur(8px)}to{opacity:1;transform:none;filter:blur(0)}}
-.letter-text p{min-height:1.3em}.letter-text p.ink-writing:after{content:'│';color:#ac5d79;animation:typeBlink .65s steps(1) infinite}
-.letter-skip{display:block;margin:25px auto 0;padding:9px 18px;border:1px solid #c894a5;border-radius:30px;background:#fff5f4;color:#79485f;font-size:.85rem}
-.letter-skip:hover{background:#f6dce3}
-@media(max-width:540px){.letter-envelope{min-height:210px}.letter-card:before,.letter-card:after{font-size:2.8rem}}
-</style>
-</head>
-<body><div class="scroll-progress" id="scrollProgress" aria-hidden="true"></div><canvas id="petalCanvas" aria-hidden="true"></canvas>
-<!-- PENGATURAN: ubah nama, tanggal, ucapan, dan nama file foto di bawah. Simpan foto dalam folder bernama "foto" di samping file HTML ini. -->
-<div class="gate" id="gate" role="dialog" aria-modal="true" aria-label="Hadiah ulang tahun"><div class="gate-stars" aria-hidden="true"><span style="top:12%;left:16%">✧</span><span style="top:21%;right:18%">✦</span><span style="bottom:18%;left:23%">✶</span><span style="bottom:25%;right:12%">✧</span></div><div class="gate-content"><div class="gift" aria-hidden="true">🎁</div><p class="eyebrow">Ada sesuatu untukmu</p><h2>Hari ini tentang kamu.</h2><p>Siapkan senyum terbaikmu. Ada sedikit cerita, kenangan, dan banyak rasa sayang di balik hadiah ini.</p><button class="button" id="openGift" type="button">Buka hadiahmu ♡ <span>→</span></button><div class="code-panel" id="codePanel"><h3>Kode rahasia kita ♡</h3><p id="codeHint">Petunjuk: empat angka yang mudah diingat</p><div class="code-dots" id="codeDots" aria-label="Empat digit kode"><i></i><i></i><i></i><i></i></div><div class="keypad" id="keypad"></div><div class="code-feedback" id="codeFeedback" aria-live="polite"></div><button type="button" class="skip" id="skipCode">Lewati kode dan buka hadiah</button></div></div></div>
-<div class="stepper" aria-label="Navigasi bagian"><a href="#beranda" class="active" aria-label="Pembuka"></a><a href="#pilih-kejutan" aria-label="Pilih kejutan"></a><a href="#cerita" aria-label="Cerita"></a><a href="#permainan" aria-label="Permainan"></a><a href="#kenangan" aria-label="Kenangan"></a><a href="#film" aria-label="Video"></a><a href="#surat" aria-label="Surat"></a><a href="#harapan" aria-label="Harapan"></a></div>
-<nav class="nav"><a href="#beranda" class="brand">Untuk Kamu ♡</a><div class="navlinks"><a href="#cerita">Cerita Kita</a><a href="#kenangan">Kenangan</a><a href="#surat">Surat Cinta</a></div></nav>
-<header class="hero" id="beranda"><svg class="flower-corner left" viewBox="0 0 310 350" aria-hidden="true"><path class="flower-stem" d="M48 350 C60 250 100 220 126 153 C155 120 171 94 190 60 M90 270 C130 245 155 230 178 211 M120 176 C78 134 65 109 57 82"/><path class="flower-leaf" d="M90 270 Q40 227 28 248 Q40 286 90 270 M111 185 Q155 160 163 177 Q147 206 111 185 M143 126 Q117 87 97 95 Q97 128 143 126 M174 211 Q198 171 216 179 Q219 205 174 211"/><g transform="translate(191 61)"><ellipse class="flower-petal" cy="-29" rx="15" ry="32"/><ellipse class="flower-petal" cy="29" rx="15" ry="32"/><ellipse class="flower-petal" cx="-28" rx="31" ry="15"/><ellipse class="flower-petal" cx="28" rx="31" ry="15"/><ellipse class="flower-petal" transform="rotate(45)" cy="-28" rx="13" ry="29"/><ellipse class="flower-petal" transform="rotate(-45)" cy="-28" rx="13" ry="29"/><ellipse class="flower-petal" transform="rotate(45)" cy="28" rx="13" ry="29"/><ellipse class="flower-petal" transform="rotate(-45)" cy="28" rx="13" ry="29"/><circle class="flower-core" r="17"/></g><g transform="translate(56 80) scale(.52)"><ellipse class="flower-petal" cy="-29" rx="15" ry="32"/><ellipse class="flower-petal" cy="29" rx="15" ry="32"/><ellipse class="flower-petal" cx="-28" rx="31" ry="15"/><ellipse class="flower-petal" cx="28" rx="31" ry="15"/><circle class="flower-core" r="17"/></g><g transform="translate(178 212) scale(.46)"><ellipse class="flower-petal" cy="-29" rx="15" ry="32"/><ellipse class="flower-petal" cy="29" rx="15" ry="32"/><ellipse class="flower-petal" cx="-28" rx="31" ry="15"/><ellipse class="flower-petal" cx="28" rx="31" ry="15"/><circle class="flower-core" r="17"/></g></svg><svg class="flower-corner right" viewBox="0 0 310 350" aria-hidden="true"><path class="flower-stem" d="M48 350 C60 250 100 220 126 153 C155 120 171 94 190 60 M90 270 C130 245 155 230 178 211 M120 176 C78 134 65 109 57 82"/><path class="flower-leaf" d="M90 270 Q40 227 28 248 Q40 286 90 270 M111 185 Q155 160 163 177 Q147 206 111 185 M143 126 Q117 87 97 95 Q97 128 143 126 M174 211 Q198 171 216 179 Q219 205 174 211"/><g transform="translate(191 61)"><ellipse class="flower-petal" cy="-29" rx="15" ry="32"/><ellipse class="flower-petal" cy="29" rx="15" ry="32"/><ellipse class="flower-petal" cx="-28" rx="31" ry="15"/><ellipse class="flower-petal" cx="28" rx="31" ry="15"/><ellipse class="flower-petal" transform="rotate(45)" cy="-28" rx="13" ry="29"/><ellipse class="flower-petal" transform="rotate(-45)" cy="-28" rx="13" ry="29"/><ellipse class="flower-petal" transform="rotate(45)" cy="28" rx="13" ry="29"/><ellipse class="flower-petal" transform="rotate(-45)" cy="28" rx="13" ry="29"/><circle class="flower-core" r="17"/></g><g transform="translate(56 80) scale(.52)"><ellipse class="flower-petal" cy="-29" rx="15" ry="32"/><ellipse class="flower-petal" cy="29" rx="15" ry="32"/><ellipse class="flower-petal" cx="-28" rx="31" ry="15"/><ellipse class="flower-petal" cx="28" rx="31" ry="15"/><circle class="flower-core" r="17"/></g><g transform="translate(178 212) scale(.46)"><ellipse class="flower-petal" cy="-29" rx="15" ry="32"/><ellipse class="flower-petal" cy="29" rx="15" ry="32"/><ellipse class="flower-petal" cx="-28" rx="31" ry="15"/><ellipse class="flower-petal" cx="28" rx="31" ry="15"/><circle class="flower-core" r="17"/></g></svg><span class="star s1">✦</span><span class="star s2">✧</span><span class="star s3">✦</span><div class="wrap hero-inner"><div class="hero-copy"><div class="eyebrow" id="hero-date">Hari yang paling istimewa</div><h1>Selamat<br>ulang tahun,<br><em class="hero-name" id="hero-name">Sayang.</em></h1><p>Hari ini dunia merayakan hadirnya seseorang yang membuat hari-hariku jauh lebih hangat. Halaman kecil ini kubuat khusus untukmu. ♡</p><a class="button" href="#cerita">Buka hadiah kecil ini <span>↗</span></a></div></div><div class="scroll-cue" aria-hidden="true">⌄</div><div class="wrap hero-bottom"><span><i class="scroll-line"></i> Gulir perlahan</span><span>Made with love ♥</span></div></header>
-<main><section class="surprise-menu" id="pilih-kejutan"><div class="section-glow"></div><div class="wrap reveal"><p class="eyebrow">Empat pintu kecil</p><h2>Pilih kejutanmu.</h2><p class="subtitle">Ada beberapa cara untuk menikmati hadiah ini. Pilih yang paling membuatmu penasaran; semuanya kusimpan untukmu.</p><div class="surprise-options"><a class="surprise-option" href="#kenangan"><span class="icon" aria-hidden="true">📷</span><strong>Foto kita</strong><small>Buka potongan kenangan</small></a><a class="surprise-option" href="#harapan"><span class="icon" aria-hidden="true">⏳</span><strong>Harapan</strong><small>Satu doa untuk hari ini</small></a><button class="surprise-option" id="menuMusic" type="button"><span class="icon" aria-hidden="true">🎵</span><strong>Lagu kita</strong><small>Putar musik pilihanmu</small></button><a class="surprise-option" href="#film"><span class="icon" aria-hidden="true">🎁</span><strong>Video spesial</strong><small>Lihat pesan bergerak</small></a></div></div></section>
-<section class="intro reveal"><div class="wrap"><p class="eyebrow">Untuk seseorang yang paling berarti</p><h2 class="type-line" id="typedIntro" data-text="Sejak ada kamu, hal-hal sederhana terasa lebih indah.">Sejak ada kamu, hal-hal sederhana terasa lebih indah.</h2><div class="flourish">✦ ♡ ✦</div><p>Mungkin aku tidak selalu pandai merangkai kata, tetapi hari ini aku ingin kamu tahu: kehadiranmu adalah salah satu hal paling berharga yang pernah datang dalam hidupku. Terima kasih sudah menjadi kamu.</p></div></section>
-<div class="decorative-divider" aria-hidden="true"></div><section class="story" id="cerita"><div class="wrap story-grid"><div class="story-photo reveal"><div class="photo-fallback">Tempat foto<br>favorit kita ♡</div><img src="foto/kita.jpg" alt="Foto kita berdua" onerror="this.style.display='none'"></div><div class="story-copy reveal"><p class="eyebrow">Bab favorit dalam hidupku</p><h2>Kalau ditanya tentang rumah, aku teringat kamu.</h2><p>Ada banyak cerita yang kita lalui. Tawa yang datang tiba-tiba, obrolan panjang tentang apa saja, bahkan hari-hari sulit yang kita hadapi pelan-pelan. Semua itu menjadi kenangan yang ingin kusimpan baik-baik.</p><p>Bersamamu, aku belajar bahwa bahagia tidak selalu harus berupa sesuatu yang besar. Kadang cukup mendengar ceritamu, melihat senyummu, atau tahu bahwa kita saling ada.</p><div class="quote">“Di antara begitu banyak kemungkinan, aku bersyukur jalan hidup mempertemukan kita.”</div><p>Semoga kita masih punya banyak hari untuk menciptakan cerita baru bersama.</p></div></div></section>
-<section class="minigame" id="permainan"><div class="wrap reveal"><p class="eyebrow">Sebelum melihat semua kenangan</p><h2>Main sebentar, yuk?</h2><div class="game-card"><div class="story-prompt">Pertanyaan kecil untukmu · <span id="questionNo">1 / 3</span></div><h3 id="questionText">Siapa yang paling membuat hari-hariku berwarna?</h3><p>Pilih jawaban yang menurutmu paling tepat. Tenang, ini permainan yang dibuat dengan cinta.</p><div class="choices" id="choices"></div><div class="game-feedback" id="gameFeedback" aria-live="polite"></div></div></div></section>
-<section class="gallery" id="kenangan"><div class="wrap"><div class="reveal"><p class="eyebrow">Potongan cerita kita</p><h2>Kenangan yang selalu ingin kuulang.</h2><p class="subtitle">Setiap foto punya cerita. Ini beberapa momen kecil yang selalu membuatku tersenyum saat mengingatmu.</p></div><div class="gallery-grid" id="gallery"></div></div></section>
-<section class="reasons"><div class="wrap"><div class="reason-top reveal"><p class="eyebrow">Hal-hal kecil yang aku suka</p><h2>Enam alasan, dari ribuan alasan.</h2><p>Aku bisa menulis lebih banyak lagi, tetapi kita mulai dari sini dulu.</p></div><div class="reason-grid" id="reasons"></div></div></section>
-<section class="memory-film" id="film"><div class="wrap reveal"><p class="eyebrow">A moment for you</p><h2>Film kecil tentang kita.</h2><p class="subtitle">Ada perasaan yang sulit dijelaskan dengan kata-kata. Mungkin potongan gambar dan suara ini bisa sedikit mewakilinya.</p><div class="film-frame"><div class="film-screen"><div class="film-placeholder" id="filmPlaceholder"><div class="film-heart">♡</div><p>Our little moments</p><small>Tambahkan video-kita.mp4 untuk memutar cerita kalian</small></div><video id="ourVideo" controls playsinline preload="metadata" poster="foto/video-cover.jpg"><source src="video-kita.mp4" type="video/mp4">Browser tidak mendukung video.</video><button id="filmPlay" class="film-play" type="button" aria-label="Putar video">▶</button></div><div class="film-controls"><span>✦ REKAMAN KENANGAN KITA</span><span id="filmStatus">Siap diputar ♡</span><button id="filmMute" type="button" aria-label="Bisukan video">♫</button></div></div><div class="filmstrip" id="filmstrip" aria-label="Cuplikan foto kita"></div><p class="video-note">Video akan tampil setelah file pribadi kalian ditambahkan.</p></div></section>
-<section class="letter" id="surat"><div class="wrap"><article class="letter-card reveal"><p class="eyebrow">Surat kecil untukmu</p><h2>Untuk kamu, di hari ulang tahunmu.</h2><button class="letter-envelope" id="openLetter" type="button" aria-expanded="false"><span class="envelope-top" aria-hidden="true"></span><span class="wax-seal" aria-hidden="true">♡</span><span class="envelope-title">Untuk <span id="letterName">kamu</span></span><span class="envelope-hint">Sentuh untuk membuka surat</span></button><div class="letter-text"><p>Sayang, selamat ulang tahun. Hari ini aku ingin berhenti sejenak dari segala kesibukan dan mengingatkanmu betapa berharganya dirimu. Aku bangga melihat kamu terus tumbuh, terus mencoba, dan tetap menjadi orang yang penuh kasih, bahkan ketika harimu tidak selalu mudah.</p><p>Terima kasih untuk setiap perhatian kecil, untuk cerita yang kamu bagi, dan untuk cara kamu membuatku merasa diterima. Aku tahu kita tidak selalu punya hari yang sempurna. Namun, aku berharap kita selalu punya keberanian untuk saling mendengarkan, memahami, dan memilih satu sama lain.</p><p>Di usia yang baru ini, semoga kamu makin dekat dengan mimpi-mimpimu. Semoga langkahmu dipenuhi hal baik, hatimu lebih sering tenang, dan senyummu lebih sering hadir. Kalau suatu hari kamu lelah, ingat bahwa kamu tidak harus menghadapi semuanya sendirian.</p><p>Aku sayang kamu. Hari ini, besok, dan di setiap hari ketika kita masih bisa saling menggenggam. Selamat ulang tahun, cintaku. ♡</p></div><div class="signature" id="signature">Dengan cinta, aku</div><button class="letter-skip" id="skipLetter" type="button" hidden>Tampilkan seluruh surat ♡</button></article></div></section>
-<section class="wish" id="harapan"><div class="wrap reveal"><p class="eyebrow">Untuk tahun yang baru</p><h2>Ambil satu harapan untukmu.</h2><p>Klik kotak ini. Setiap kali kamu membukanya, ada doa kecil yang ingin kusampaikan.</p><button id="wishBtn" class="wish-jar" type="button" aria-label="Ambil harapan">💝</button><div id="wishOutput" class="wish-output" aria-live="polite">Satu harapan manis sedang menunggumu...</div></div></section>
-<section class="surprise"><div class="wrap reveal"><p class="eyebrow">Satu hal lagi...</p><h2>Masih ada pesan kecil untukmu ♡</h2><p>Kalau kamu sudah sampai di sini, berarti kamu sudah membaca sedikit dari banyaknya rasa sayang yang ingin kusampaikan.</p><button class="button" id="surpriseBtn" type="button" aria-expanded="false">Klik untuk kejutan ✨</button><div id="secret" class="secret" hidden><h3>Permintaanku sederhana...</h3><p>Teruslah jadi dirimu sendiri. Jangan lupa bahagia, jangan terlalu keras pada diri sendiri, dan izinkan aku menemanimu di banyak ulang tahun berikutnya. I love you, always. 🤍</p></div></div></section></main>
-<div id="lightbox" class="lightbox" role="dialog" aria-modal="true" aria-label="Foto kenangan" hidden><button id="lightboxClose" class="lightbox-close" aria-label="Tutup foto">×</button><div class="lightbox-panel"><img id="lightboxImg" alt=""><h3 id="lightboxTitle"></h3><p id="lightboxDesc"></p><div class="lightbox-controls"><button id="prevPhoto" class="lightbox-arrow" aria-label="Foto sebelumnya">‹</button><span id="photoCount"></span><button id="nextPhoto" class="lightbox-arrow" aria-label="Foto berikutnya">›</button></div></div></div><footer class="footer"><div class="serif">Untuk kamu, selalu ♡</div>Dibuat dengan sepenuh hati · <span id="footer-name">Sayang</span></footer>
-<button id="musicBtn" class="music" type="button" aria-label="Putar musik" title="Tambahkan file musik.mp3 untuk musik">♫ Putar musik</button><audio id="music" src="musik.mp3" loop preload="none"></audio>
-<script>
-// ===== UBAH BAGIAN INI SESUAI CERITA KALIAN =====
-const data = {
-  namaPacar: 'Sayang',
-  tanggal: 'Hari yang paling istimewa', // contoh: '25 September 2026'
-  namaKamu: 'Aku',
-  kodeRahasia: '1234', // Ganti dengan 4 angka yang bermakna untuk kalian. Kode ini hanya efek kejutan, bukan pengaman data.
-  petunjukKode: 'Petunjuk: empat angka yang mudah diingat',
-  pertanyaan: [
-    {tanya:'Siapa yang paling membuat hari-hariku berwarna?', opsi:['Kamu, tentu saja ♡','Lampu kamar','Kopi pagi','Matahari'], benar:0},
-    {tanya:'Kalau punya satu hari bebas, aku ingin menghabiskannya dengan siapa?', opsi:['Bantal','Kamu ♡','Televisi','Pekerjaan'], benar:1},
-    {tanya:'Apa hadiah terbaik yang pernah kuterima?', opsi:['Kue','Libur panjang','Bertemu denganmu ♡','Sepatu baru'], benar:2}
-  ],
-  harapan: [
-    'Semoga semua mimpi yang kamu perjuangkan pelan-pelan menjadi nyata.',
-    'Semoga tahun ini hatimu lebih sering tenang dan hari-harimu penuh tawa.',
-    'Semoga kamu selalu dikelilingi orang-orang yang menyayangimu dengan tulus.',
-    'Semoga kita punya lebih banyak waktu untuk membuat kenangan bersama.',
-    'Semoga kamu tidak pernah lupa betapa luar biasanya dirimu di mataku.'
-  ],
-  foto: [
-    {file:'foto/kenangan-1.jpg', judul:'Hari yang menyenangkan', cerita:'Satu hari sederhana yang terasa begitu istimewa.'},
-    {file:'foto/kenangan-2.jpg', judul:'Tawa yang tak terlupakan', cerita:'Semoga kita selalu punya alasan untuk tertawa bersama.'},
-    {file:'foto/kenangan-3.jpg', judul:'Tempat favoritku', cerita:'Bukan tempatnya, tetapi karena aku ada di sana bersamamu.'},
-    {file:'foto/kenangan-4.jpg', judul:'Cerita kecil kita', cerita:'Momen singkat yang akan selalu kusimpan.'},
-    {file:'foto/kenangan-5.jpg', judul:'Senyum favoritku', cerita:'Senyum yang selalu ingin kulihat setiap hari.'},
-    {file:'foto/kenangan-6.jpg', judul:'Kita, hari ini dan nanti', cerita:'Untuk semua perjalanan yang masih menunggu kita.'}
-  ],
-  alasan: [
-    ['Senyummu','Ada rasa tenang yang datang setiap kali aku melihatmu tersenyum.'],
-    ['Caramu peduli','Hal-hal kecil yang kamu lakukan selalu terasa besar bagiku.'],
-    ['Cerita-ceritamu','Aku suka mendengar tentang harimu, bahkan bagian yang menurutmu biasa saja.'],
-    ['Semangatmu','Aku kagum pada caramu terus melangkah dan mencoba lagi.'],
-    ['Tawa kita','Bersamamu, hal paling sederhana pun bisa jadi kenangan indah.'],
-    ['Karena kamu adalah kamu','Tidak perlu menjadi siapa pun selain dirimu sendiri untuk membuatku jatuh cinta.']
-  ]
-};
-// ===== BAGIAN PENGATURAN SELESAI =====
-document.getElementById('hero-name').textContent=data.namaPacar+'.';document.getElementById('hero-date').textContent=data.tanggal;document.getElementById('footer-name').textContent=data.namaPacar;document.getElementById('signature').textContent='Dengan cinta, '+data.namaKamu;document.title='Selamat Ulang Tahun, '+data.namaPacar+' ♡';
-const gallery=document.getElementById('gallery');data.foto.forEach((item,i)=>{const card=document.createElement('div');card.className='reveal';const photo=document.createElement('div');photo.className='photo';const fallback=document.createElement('div');fallback.className='photo-fallback';fallback.textContent='Kenangan '+String(i+1).padStart(2,'0')+' ♡';const img=document.createElement('img');img.src=item.file;img.alt=item.judul;img.loading='lazy';img.onerror=()=>img.remove();photo.append(fallback,img);const caption=document.createElement('div');caption.className='caption';const title=document.createElement('b');title.textContent=item.judul;caption.append(title,document.createElement('br'),document.createTextNode(item.cerita));card.append(photo,caption);photo.tabIndex=0;photo.setAttribute('role','button');photo.setAttribute('aria-label','Buka foto '+item.judul);photo.addEventListener('click',()=>openPhoto(i));photo.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();openPhoto(i)}});gallery.append(card)});
-const reasons=document.getElementById('reasons');data.alasan.forEach(([title,desc],i)=>{const card=document.createElement('article');card.className='reason reveal';const no=document.createElement('span');no.textContent=String(i+1).padStart(2,'0');const h=document.createElement('h3');h.textContent=title;const p=document.createElement('p');p.textContent=desc;card.append(no,h,p);reasons.append(card)});
-const observer=new IntersectionObserver(entries=>entries.forEach(e=>{if(e.isIntersecting){e.target.classList.add('visible');observer.unobserve(e.target)}}),{threshold:.1});document.querySelectorAll('.reveal').forEach(el=>observer.observe(el));
-const surpriseBtn=document.getElementById('surpriseBtn');surpriseBtn.addEventListener('click',()=>{const secret=document.getElementById('secret');secret.hidden=false;surpriseBtn.setAttribute('aria-expanded','true');surpriseBtn.textContent='Kejutannya untukmu ♡';for(let i=0;i<22;i++)setTimeout(()=>{const heart=document.createElement('span');heart.className='floating-heart';heart.textContent=['♥','♡','✦'][i%3];heart.style.left=(Math.random()*90+5)+'vw';heart.style.top=(Math.random()*45+55)+'vh';document.body.append(heart);setTimeout(()=>heart.remove(),2800)},i*85)});
-const music=document.getElementById('music'),musicBtn=document.getElementById('musicBtn');musicBtn.addEventListener('click',async()=>{if(!music.paused){music.pause();musicBtn.textContent='♫ Putar musik';return}try{await music.play();musicBtn.textContent='Ⅱ Jeda musik'}catch{musicBtn.textContent='Tambahkan musik.mp3 dulu ♫'}});
-
-// Hadiah pembuka: klik diperlukan agar browser mengizinkan pemutaran musik.
-const gate=document.getElementById('gate');document.getElementById('openGift').addEventListener('click',()=>{document.getElementById('openGift').hidden=true;document.getElementById('codePanel').classList.add('visible');document.getElementById('codeHint').textContent=data.petunjukKode});
-function launchConfetti(count=40){if(matchMedia('(prefers-reduced-motion: reduce)').matches)return;const colors=['#edb4c2','#f8dfae','#ffffff','#b889a8'];for(let i=0;i<count;i++){const el=document.createElement('span');el.className='confetti';el.style.left=Math.random()*100+'vw';el.style.background=colors[i%colors.length];el.style.animationDelay=Math.random()*1.2+'s';el.style.animationDuration=(2.3+Math.random()*2)+'s';document.body.append(el);setTimeout(()=>el.remove(),5300)}}
-let questionIndex=0,gameLocked=false;function showQuestion(){const q=data.pertanyaan[questionIndex],box=document.getElementById('choices');document.getElementById('questionNo').textContent=(questionIndex+1)+' / '+data.pertanyaan.length;document.getElementById('questionText').textContent=q.tanya;document.getElementById('gameFeedback').textContent='';box.replaceChildren();q.opsi.forEach((answer,i)=>{const btn=document.createElement('button');btn.type='button';btn.className='choice';btn.textContent=answer;btn.addEventListener('click',()=>{if(gameLocked)return;if(i===q.benar){gameLocked=true;btn.classList.add('correct');document.getElementById('gameFeedback').textContent='Benar! Kamu memang jawaban favoritku. ♡';setTimeout(()=>{questionIndex++;gameLocked=false;if(questionIndex<data.pertanyaan.length)showQuestion();else{document.getElementById('questionNo').textContent='Selesai ♡';document.getElementById('questionText').textContent='Selamat! Kamu memenangkan seluruh hatiku.';box.replaceChildren();document.getElementById('gameFeedback').textContent='Sekarang lanjut lihat kenangan kita, yuk!';launchConfetti(70)}},1200)}else{btn.classList.add('wrong');document.getElementById('gameFeedback').textContent='Hehe, coba pilih yang paling romantis ♡';setTimeout(()=>btn.classList.remove('wrong'),700)}});box.append(btn)})}showQuestion();
-let activePhoto=0,previousFocus=null;const lightbox=document.getElementById('lightbox');function openPhoto(i){if(lightbox.hidden)previousFocus=document.activeElement;activePhoto=(i+data.foto.length)%data.foto.length;const item=data.foto[activePhoto],img=document.getElementById('lightboxImg');img.src=item.file;img.alt=item.judul;img.onerror=()=>{img.removeAttribute('src');img.alt='Foto belum ditambahkan'};document.getElementById('lightboxTitle').textContent=item.judul;document.getElementById('lightboxDesc').textContent=item.cerita;document.getElementById('photoCount').textContent=(activePhoto+1)+' / '+data.foto.length;lightbox.hidden=false;document.body.style.overflow='hidden';document.getElementById('lightboxClose').focus()}function closePhoto(){lightbox.hidden=true;document.body.style.overflow='';previousFocus?.focus()}document.getElementById('lightboxClose').onclick=closePhoto;document.getElementById('prevPhoto').onclick=()=>openPhoto(activePhoto-1);document.getElementById('nextPhoto').onclick=()=>openPhoto(activePhoto+1);lightbox.addEventListener('click',e=>{if(e.target===lightbox)closePhoto()});document.addEventListener('keydown',e=>{if(lightbox.hidden)return;if(e.key==='Escape')closePhoto();if(e.key==='ArrowLeft')openPhoto(activePhoto-1);if(e.key==='ArrowRight')openPhoto(activePhoto+1)});
-let wishIndex=-1;document.getElementById('wishBtn').addEventListener('click',()=>{wishIndex=(wishIndex+1)%data.harapan.length;document.getElementById('wishOutput').textContent='“'+data.harapan[wishIndex]+'”';launchConfetti(20)});
-const sections=[...document.querySelectorAll('#beranda,#pilih-kejutan,#cerita,#permainan,#kenangan,#film,#surat,#harapan')],dots=[...document.querySelectorAll('.stepper a')];const sectionObserver=new IntersectionObserver(entries=>{entries.forEach(e=>{if(e.isIntersecting){const index=sections.indexOf(e.target);dots.forEach((dot,i)=>dot.classList.toggle('active',i===index))}})},{rootMargin:'-35% 0px -50% 0px'});sections.forEach(el=>sectionObserver.observe(el));
-
-// Tulisan muncul ketika pengunjung sampai ke bagian pembuka cerita.
-const typedIntro=document.getElementById('typedIntro');if(!matchMedia('(prefers-reduced-motion: reduce)').matches){const fullText=typedIntro.dataset.text;typedIntro.textContent='';let typingStarted=false;const typeObserver=new IntersectionObserver(entries=>{if(entries[0].isIntersecting&&!typingStarted){typingStarted=true;let pos=0;typedIntro.classList.add('typed-cursor');const timer=setInterval(()=>{typedIntro.textContent=fullText.slice(0,++pos);if(pos>=fullText.length){clearInterval(timer);typedIntro.classList.remove('typed-cursor')}},47);typeObserver.disconnect()}},{threshold:.25});typeObserver.observe(typedIntro)}
-// Kelopak ringan di canvas; berhenti otomatis jika tab tidak terlihat.
-const petalCanvas=document.getElementById('petalCanvas');if(!matchMedia('(prefers-reduced-motion: reduce)').matches){const ctx=petalCanvas.getContext('2d');let petals=[],w=0,h=0,last=0;function resizePetals(){const ratio=Math.min(devicePixelRatio||1,2);w=innerWidth;h=innerHeight;petalCanvas.width=w*ratio;petalCanvas.height=h*ratio;ctx.setTransform(ratio,0,0,ratio,0,0);petals=Array.from({length:Math.min(38,Math.max(14,Math.floor(w/34)))},()=>({x:Math.random()*w,y:Math.random()*h,size:3+Math.random()*6,speed:.35+Math.random()*.8,drift:Math.random()*6,phase:Math.random()*6.28,spin:Math.random()*6.28}));}addEventListener('resize',resizePetals,{passive:true});resizePetals();function drawPetals(t){requestAnimationFrame(drawPetals);if(document.hidden||t-last<32)return;last=t;ctx.clearRect(0,0,w,h);for(const p of petals){p.y+=p.speed;p.x+=Math.sin(t*.001+p.phase)*.32;p.spin+=.016;if(p.y>h+20){p.y=-20;p.x=Math.random()*w}ctx.save();ctx.translate(p.x+Math.sin(t*.0007+p.drift)*9,p.y);ctx.rotate(p.spin);ctx.fillStyle='rgba(249,188,202,.55)';ctx.beginPath();ctx.ellipse(0,0,p.size*.65,p.size*1.25,.3,0,Math.PI*2);ctx.fill();ctx.restore()}}requestAnimationFrame(drawPetals)}
-let scrollTicking=false;addEventListener('scroll',()=>{if(scrollTicking)return;scrollTicking=true;requestAnimationFrame(()=>{const max=document.documentElement.scrollHeight-innerHeight;document.getElementById('scrollProgress').style.width=(max>0?scrollY/max*100:0)+'%';scrollTicking=false})},{passive:true});
-
-// Kode rahasia untuk membuka hadiah. Tombol lewati menjaga akses tetap mudah.
-let enteredCode='';const keypad=document.getElementById('keypad');function showCode(){document.querySelectorAll('#codeDots i').forEach((dot,i)=>dot.classList.toggle('filled',i<enteredCode.length))}function unlockGift(){gate.classList.add('unlocking');setTimeout(()=>{gate.classList.add('closed');document.body.style.overflow='';launchConfetti(90);setTimeout(()=>gate.remove(),900)},650)}for(const key of ['1','2','3','4','5','6','7','8','9','⌫','0','↵']){const btn=document.createElement('button');btn.type='button';btn.textContent=key;if(key==='⌫'||key==='↵')btn.className='key-action';btn.setAttribute('aria-label',key==='⌫'?'Hapus angka':key==='↵'?'Buka hadiah':'Angka '+key);btn.onclick=()=>{if(key==='⌫'){enteredCode=enteredCode.slice(0,-1)}else if(key==='↵'){if(enteredCode===data.kodeRahasia){document.getElementById('codeFeedback').textContent='Benar. Selamat datang di cerita kita ♡';unlockGift()}else{document.getElementById('codeFeedback').textContent='Belum tepat. Coba lagi atau lewati, ya ♡';enteredCode=''}}else if(enteredCode.length<4){enteredCode+=key;if(enteredCode.length===4&&enteredCode===data.kodeRahasia){document.getElementById('codeFeedback').textContent='Benar. Selamat datang di cerita kita ♡';unlockGift()}}showCode()};keypad.append(btn)}document.getElementById('skipCode').onclick=unlockGift;
-// Pilihan kejutan musik mengendalikan tombol musik utama.
-document.getElementById('menuMusic').onclick=()=>document.getElementById('musicBtn').click();
-// Film pribadi: ketika file belum ada, tampilkan kartu ajakan yang rapi.
-const ourVideo=document.getElementById('ourVideo'),filmPlaceholder=document.getElementById('filmPlaceholder'),filmPlay=document.getElementById('filmPlay');ourVideo.addEventListener('loadedmetadata',()=>{filmPlaceholder.hidden=true;document.getElementById('filmStatus').textContent='Video kita siap ♡'});ourVideo.addEventListener('error',()=>{filmPlaceholder.hidden=false;filmPlay.hidden=true;document.getElementById('filmStatus').textContent='Tambahkan video-kita.mp4'});filmPlay.onclick=async()=>{try{await ourVideo.play();filmPlaceholder.hidden=true;filmPlay.hidden=true;music.pause();musicBtn.textContent='♫ Putar musik';document.getElementById('filmStatus').textContent='Sedang memutar kenangan ♡'}catch{document.getElementById('filmStatus').textContent='Tambahkan video-kita.mp4'}};ourVideo.addEventListener('pause',()=>{if(ourVideo.readyState>0)filmPlay.hidden=false});ourVideo.addEventListener('play',()=>filmPlay.hidden=true);document.getElementById('filmMute').onclick=()=>{ourVideo.muted=!ourVideo.muted;document.getElementById('filmMute').textContent=ourVideo.muted?'✕':'♫'};
-const filmstrip=document.getElementById('filmstrip');data.foto.forEach((item,i)=>{const card=document.createElement('button');card.className='filmstrip-card';card.type='button';card.style.setProperty('--tilt',i%2?'2deg':'-2deg');card.setAttribute('aria-label','Lihat '+item.judul);const fallback=document.createElement('span');fallback.textContent='Kenangan '+(i+1);const image=document.createElement('img');image.src=item.file;image.alt=item.judul;image.loading='lazy';image.onerror=()=>image.remove();card.append(fallback,image);card.onclick=()=>openPhoto(i);filmstrip.append(card)});
-document.body.classList.add('js-ready');gate.classList.add('ready');document.body.style.overflow='hidden';
-
-// EFEK MENGETIK: judul, paragraf, surat, kutipan, dan keterangan foto.
-// Format di dalam elemen (misalnya <em>) tetap terjaga.
-(function initTypewriter(){
-  if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
-  const selectors = [
-    '.gate h2', '.gate-content > p', '.code-panel h3', '.code-panel > p',
-    '.hero h1', '.hero-copy > p',
-    'section h2', 'section h3', 'section p', '.quote',
-    '.caption', '.reason p', '.footer .serif'
-  ].join(',');
-  const elements = [...document.querySelectorAll(selectors)]
-    .filter(el => !el.closest('button, a, .letter-text') && el.textContent.trim().length > 0)
-    .filter(el => !['questionText','gameFeedback','wishOutput','filmStatus','lightboxDesc','lightboxTitle','photoCount','codeFeedback'].includes(el.id));
-  const jobs = new Map();
-  for (const element of elements) {
-    // Ambil node teks saja. Gambar, ikon, dan elemen anak tidak dihapus.
-    const walker = document.createTreeWalker(element, NodeFilter.SHOW_TEXT);
-    const nodes = [];
-    while (walker.nextNode()) nodes.push(walker.currentNode);
-    const originals = nodes.map(node => node.nodeValue);
-    const total = originals.reduce((sum, value) => sum + value.length, 0);
-    if (!total) continue;
-    element.setAttribute('aria-label', element.textContent.trim().replace(/\s+/g,' '));
-    nodes.forEach(node => { node.nodeValue = ''; });
-    jobs.set(element, {nodes, originals, total, started:false});
-  }
-  function type(element) {
-    const job = jobs.get(element);
-    if (!job || job.started) return;
-    job.started = true;
-    element.classList.add('type-writing');
-    const duration = Math.min(3100, Math.max(650, job.total * 24));
-    let lastCount = -1;
-    let startedAt = 0;
-    function frame(time) {
-      if (!startedAt) startedAt = time;
-      const count = Math.min(job.total, Math.ceil((time-startedAt)/duration * job.total));
-      if (count !== lastCount) {
-        let left = count;
-        job.nodes.forEach((node,index) => {
-          const source = job.originals[index];
-          node.nodeValue = source.slice(0, Math.min(source.length, left));
-          left = Math.max(0, left-source.length);
-        });
-        lastCount = count;
-      }
-      if (count < job.total) requestAnimationFrame(frame);
-      else element.classList.remove('type-writing');
+  <style>
+    :root {
+      --gelap: #352235;
+      --anggur: #684258;
+      --mawar: #b76883;
+      --pink: #f1c6ce;
+      --putih: #fffaf6;
+      --tinta: #493542;
     }
-    requestAnimationFrame(frame);
-  }
-  const observer = new IntersectionObserver(entries => {
-    entries.forEach(entry => {
-      if (entry.isIntersecting) {
-        type(entry.target);
-        observer.unobserve(entry.target);
+
+    * { box-sizing: border-box; }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      margin: 0;
+      overflow-x: hidden;
+      background: var(--putih);
+      color: var(--tinta);
+      font: 16px/1.8 "DM Sans", sans-serif;
+    }
+
+    button, a { font: inherit; }
+    button { cursor: pointer; }
+    a { color: inherit; text-decoration: none; }
+    h1, h2, h3 { font-family: "Playfair Display", serif; font-weight: 500; }
+    h2 { font-size: clamp(2.3rem, 6vw, 4.4rem); line-height: 1.16; margin: 12px 0 22px; }
+    p { margin: 0 0 18px; }
+
+    .wrap { width: min(1120px, calc(100% - 44px)); margin: auto; }
+    .label { font-size: .72rem; font-weight: 700; letter-spacing: .23em; text-transform: uppercase; color: var(--mawar); }
+    .button {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 12px;
+      border: 0;
+      border-radius: 100px;
+      padding: 15px 25px;
+      background: #f5ced2;
+      color: #422c3d;
+      font-weight: 700;
+      box-shadow: 0 12px 30px #1c10252b;
+      transition: transform .25s, background .25s;
+    }
+    .button:hover { transform: translateY(-4px); background: white; }
+    .button:focus-visible, button:focus-visible, a:focus-visible { outline: 3px solid #f8b5ca; outline-offset: 4px; }
+
+    /* Layar pembuka */
+    .gate {
+      position: fixed;
+      inset: 0;
+      z-index: 100;
+      display: flex;
+      align-items: flex-start;
+      justify-content: center;
+      overflow-y: auto;
+      padding: 26px;
+      text-align: center;
+      color: white;
+      background:
+        radial-gradient(circle at 50% 35%, #8a5a76, transparent 50%),
+        linear-gradient(145deg, #38243b, #231a2e);
+      transition: opacity .6s, visibility .6s;
+    }
+    .gate.closed { opacity: 0; visibility: hidden; pointer-events: none; }
+    .gate-content { width: min(600px, 100%); margin: auto; padding: 15px 0 25px; }
+    .gate .label { color: #f5cbd5; }
+    .gate h2 { font-size: clamp(3rem, 10vw, 6rem); }
+    .gate p { color: #f7e3ea; }
+    .gift {
+      display: grid;
+      place-items: center;
+      width: 120px;
+      height: 120px;
+      margin: 0 auto 22px;
+      border-radius: 28px;
+      background: linear-gradient(145deg, #f4ccd5, #bd849e);
+      box-shadow: 0 22px 60px #130e244d;
+      font-size: 4.5rem;
+      animation: giftFloat 3s ease-in-out infinite;
+    }
+    @keyframes giftFloat { 50% { transform: translateY(-13px) rotate(5deg); } }
+    .code-panel {
+      display: none;
+      max-width: 330px;
+      margin: 22px auto 0;
+      padding: 22px;
+      border: 1px solid #ffffff55;
+      border-radius: 22px;
+      background: #ffffff18;
+    }
+    .code-panel.show { display: block; animation: appear .5s both; }
+    .dots { display: flex; justify-content: center; gap: 12px; margin: 18px; }
+    .dots i { width: 13px; height: 13px; border: 1px solid #f8d1db; border-radius: 50%; }
+    .dots i.filled { background: #f8d1db; box-shadow: 0 0 12px #f8d1db; }
+    .keypad { display: grid; grid-template-columns: repeat(3, 1fr); gap: 9px; max-width: 240px; margin: auto; }
+    .keypad button {
+      min-height: 46px;
+      border: 1px solid #ffffff55;
+      border-radius: 30px;
+      background: #ffffff1a;
+      color: white;
+    }
+    .keypad button:active { background: #ffffff55; }
+    .skip { display: block; margin: 12px auto 0; border: 0; background: none; color: #ffe5ee; text-decoration: underline; }
+
+    /* Halaman utama */
+    .nav {
+      position: absolute;
+      z-index: 8;
+      top: 24px;
+      left: 0;
+      right: 0;
+      display: flex;
+      justify-content: space-between;
+      color: white;
+      font-size: .82rem;
+    }
+    .brand { font: 1.35rem "Playfair Display", serif; }
+    .hero {
+      position: relative;
+      display: flex;
+      align-items: center;
+      min-height: 100svh;
+      overflow: hidden;
+      color: white;
+      background:
+        radial-gradient(circle at 75% 35%, #925b79, transparent 35%),
+        linear-gradient(130deg, #2d1b30, #68405a 70%, #302037);
+    }
+    .hero::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: url("foto/utama.jpg") center/cover;
+      opacity: .25;
+    }
+    .hero::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(90deg, #26182de8, #26182d55);
+    }
+    .hero-content { position: relative; z-index: 2; padding: 125px 0 100px; }
+    .hero h1 { max-width: 900px; font-size: clamp(3.7rem, 10vw, 8.5rem); line-height: 1.03; letter-spacing: -.055em; margin: 17px 0 28px; }
+    .hero h1 em { color: #f6cad4; font-weight: 400; }
+    .hero p { max-width: 530px; color: #f8e6ec; font-size: 1.06rem; }
+    .hero .label { color: #f5c5d1; }
+    .scroll-hint { position: absolute; z-index: 3; bottom: 30px; left: 50%; transform: translateX(-50%); font-size: .75rem; letter-spacing: .2em; text-transform: uppercase; color: #f7dce5; }
+
+    section { padding: 105px 0; }
+    .center { text-align: center; }
+    .center > .wrap > p { max-width: 720px; margin-left: auto; margin-right: auto; }
+    .intro { background: #fffaf6; }
+    .intro p:last-child { color: #806d77; }
+    .ornament { margin: 20px 0; color: #ba758d; font-size: 1.8rem; letter-spacing: .5em; }
+
+    .menu { background: #322136; color: white; }
+    .menu .label { color: #efb9c9; }
+    .menu > .wrap > p { color: #ead9e2; }
+    .menu-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 15px; margin-top: 38px; }
+    .menu-card {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 205px;
+      padding: 22px;
+      border: 1px solid #f5cad659;
+      border-radius: 20px;
+      background: #ffffff0e;
+      color: white;
+      transition: transform .3s, background .3s;
+    }
+    .menu-card:hover { transform: translateY(-8px); background: #ffffff25; }
+    .menu-card span { font-size: 2.8rem; }
+    .menu-card strong { font-size: 1.1rem; }
+    .menu-card small { color: #ead5df; }
+
+    .story { background: #f3e8e6; }
+    .story-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 9%; align-items: center; }
+    .portrait {
+      position: relative;
+      height: 570px;
+      overflow: hidden;
+      border-radius: 240px 240px 12px 12px;
+      background: linear-gradient(140deg, #d6a3b1, #815269);
+      box-shadow: 18px 18px 0 #e0c8c9;
+    }
+    .portrait img { position: relative; z-index: 1; width: 100%; height: 100%; object-fit: cover; }
+    .fallback { position: absolute; inset: 0; display: grid; place-items: center; padding: 20px; color: white; text-align: center; font: 2rem "Playfair Display", serif; }
+    .story-copy p { color: #715d69; }
+    .quote { margin: 30px 0; padding-left: 22px; border-left: 2px solid #bb748b; color: #593a4b; font: italic 1.55rem/1.5 "Playfair Display", serif; }
+
+    .quiz { background: #fff7f3; }
+    .quiz-box { max-width: 780px; margin: 30px auto 0; padding: clamp(25px, 6vw, 50px); border-radius: 24px; background: white; box-shadow: 0 20px 65px #5a3b4a17; }
+    .quiz-box h3 { font-size: 1.8rem; }
+    .choices { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-top: 25px; }
+    .choices button { padding: 15px; border: 1px solid #e7c8d3; border-radius: 12px; background: #fff7f7; color: #5a3549; }
+    .choices button:hover { background: #f4dce3; }
+    .feedback { min-height: 35px; margin-top: 18px; color: #a45070; font-weight: 700; }
+
+    .gallery-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; margin-top: 40px; text-align: left; }
+    .photo-card { min-width: 0; }
+    .photo {
+      position: relative;
+      height: 360px;
+      overflow: hidden;
+      border-radius: 12px;
+      background: linear-gradient(145deg, #d4a0ac, #784b62);
+      cursor: pointer;
+      box-shadow: 0 15px 35px #5b37451c;
+    }
+    .photo img { position: relative; z-index: 1; width: 100%; height: 100%; object-fit: cover; transition: transform .5s; }
+    .photo:hover img { transform: scale(1.07); }
+    .photo::after { content: "Lihat foto ↗"; position: absolute; z-index: 2; right: 15px; bottom: 15px; padding: 7px 12px; border-radius: 30px; background: #302030be; color: white; font-size: .76rem; }
+    .photo-card p { margin: 12px 0 0; color: #806c76; font-size: .88rem; }
+    .photo-card b { color: #493542; }
+
+    .reasons { background: #412a3d; color: white; }
+    .reasons .label { color: #efbdc9; }
+    .reason-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; margin-top: 38px; }
+    .reason { min-height: 220px; padding: 28px; border: 1px solid #ffffff36; background: #ffffff0b; }
+    .reason .number { color: #f1c2cc; font: italic 2.5rem "Playfair Display", serif; }
+    .reason h3 { font-size: 1.45rem; margin: 5px 0; }
+    .reason p { color: #e6d8df; font-size: .9rem; }
+
+    .film { background: #291e30; color: white; }
+    .film .label { color: #efbdc9; }
+    .film-intro { color: #ecdce3; }
+    .screen { position: relative; max-width: 840px; margin: 35px auto 0; overflow: hidden; border: 10px solid #6c4a5b; border-radius: 18px; background: #1a1321; box-shadow: 0 25px 65px #0005; }
+    .screen video { display: block; width: 100%; max-height: 480px; background: #1a1321; }
+    .video-note { color: #e7ced8; font-size: .88rem; margin-top: 16px; }
+    .filmstrip { display: flex; justify-content: center; gap: 12px; max-width: 840px; margin: 25px auto 0; overflow-x: auto; }
+    .filmstrip img { width: 90px; height: 75px; flex: none; border: 4px solid white; border-radius: 4px; object-fit: cover; transform: rotate(-3deg); }
+
+    .letter { background: #f7eeea; }
+    .letter-card { position: relative; max-width: 830px; margin: auto; padding: clamp(28px, 7vw, 80px); background: #fffefa; box-shadow: 0 24px 70px #51344820; }
+    .letter-card::after { content: "❀"; position: absolute; right: 25px; bottom: 12px; color: #e2b9c4; font-size: 4rem; opacity: .55; }
+    .envelope { display: grid; place-items: center; width: min(330px, 100%); min-height: 175px; margin: 32px auto; border: 0; border-radius: 9px; color: #603f51; background: linear-gradient(145deg, #f2c9d0, #e3acbb); box-shadow: 0 15px 35px #7e52643d; transition: transform .3s; }
+    .envelope:hover { transform: translateY(-7px) rotate(-2deg); }
+    .envelope .seal { display: block; font-size: 3rem; line-height: 1; }
+    .envelope small { display: block; }
+    .letter-text { display: none; font: 1.13rem/2 "Playfair Display", serif; }
+    .letter-text.open { display: block; animation: appear .6s both; }
+    .letter-text p { min-height: 2em; }
+    .signature { margin-top: 30px; color: #a75d79; font: italic 1.65rem "Playfair Display", serif; }
+    .letter-skip { display: none; margin-top: 16px; padding: 8px 0; border: 0; background: none; color: #a75d79; text-decoration: underline; }
+
+    .wish { background: #ecd8d9; }
+    .wish-button { width: 140px; height: 140px; margin: 25px auto; border: 0; border-radius: 50%; background: linear-gradient(140deg, white, #efc1ce); box-shadow: 0 15px 40px #7c445d2e; font-size: 4rem; animation: pulse 3s ease-in-out infinite; }
+    @keyframes pulse { 50% { transform: scale(1.07); } }
+    .wish-output { min-height: 110px; max-width: 650px; margin: auto; font: italic 1.55rem/1.55 "Playfair Display", serif; }
+
+    .ending { background: radial-gradient(circle at center, #86546e, #35223c 75%); color: white; }
+    .ending .label { color: #f6c7d2; }
+    .ending p { color: #f4e3e8; }
+    .secret { display: none; max-width: 630px; margin: 30px auto 0; padding: 28px; border: 1px solid #ffffff6b; border-radius: 15px; background: #ffffff20; animation: appear .6s both; }
+    .secret.show { display: block; }
+    footer { padding: 36px 20px 85px; background: #2d1d30; color: #f2dfe7; text-align: center; }
+
+    /* Efek bunga dan kelopak ringan untuk HP */
+    .petal {
+      position: fixed;
+      z-index: 20;
+      top: -35px;
+      width: 13px;
+      height: 20px;
+      border-radius: 80% 0 80% 0;
+      background: #f0afc0a8;
+      pointer-events: none;
+      animation: petalFall var(--duration) linear infinite;
+      animation-delay: var(--delay);
+      will-change: transform;
+    }
+    @keyframes petalFall {
+      to { transform: translate3d(var(--drift), 110vh, 0) rotate(600deg); }
+    }
+    .floating-flower { position: absolute; z-index: 2; pointer-events: none; font-size: clamp(5rem, 16vw, 13rem); opacity: .65; animation: flowerMove 5s ease-in-out infinite; }
+    .flower-left { left: -30px; bottom: 9%; }
+    .flower-right { right: -35px; top: 12%; animation-delay: -2s; }
+    @keyframes flowerMove { 50% { transform: translateY(-16px) rotate(8deg); } }
+
+    .confetti { position: fixed; z-index: 120; top: -15px; width: 9px; height: 14px; pointer-events: none; animation: confettiFall var(--time) linear forwards; }
+    @keyframes confettiFall { to { transform: translate3d(var(--side), 110vh, 0) rotate(700deg); opacity: .5; } }
+    @keyframes appear { from { opacity: 0; transform: translateY(20px); } to { opacity: 1; transform: translateY(0); } }
+    .reveal { opacity: 0; transform: translateY(25px); transition: opacity .75s, transform .75s; }
+    .reveal.visible { opacity: 1; transform: none; }
+    .typing::after { content: "|"; color: #c0758c; animation: blink .7s step-end infinite; }
+    @keyframes blink { 50% { opacity: 0; } }
+
+    .music {
+      position: fixed;
+      z-index: 40;
+      right: 18px;
+      bottom: 18px;
+      padding: 10px 15px;
+      border: 1px solid #ffffff8c;
+      border-radius: 40px;
+      background: #503249e8;
+      color: white;
+      box-shadow: 0 8px 25px #0003;
+      font-size: .82rem;
+    }
+    .lightbox { position: fixed; z-index: 110; inset: 0; display: none; align-items: center; justify-content: center; padding: 20px; background: #1b1321ed; }
+    .lightbox.show { display: flex; }
+    .lightbox-content { max-width: 800px; width: 100%; color: white; text-align: center; }
+    .lightbox img { display: block; max-width: 100%; max-height: 70vh; margin: auto; object-fit: contain; border-radius: 9px; }
+    .lightbox-close { position: absolute; top: 16px; right: 18px; width: 44px; height: 44px; border: 1px solid white; border-radius: 50%; background: #493047; color: white; font-size: 1.6rem; }
+    .lightbox-controls { display: flex; justify-content: center; align-items: center; gap: 20px; }
+    .lightbox-controls button { width: 42px; height: 42px; border: 1px solid #fff9; border-radius: 50%; background: #503249; color: white; font-size: 1.5rem; }
+
+    @media (max-width: 760px) {
+      section { padding: 75px 0; }
+      .hero h1 { font-size: clamp(3.45rem, 15vw, 6rem); }
+      .story-grid { grid-template-columns: 1fr; gap: 55px; }
+      .portrait { width: min(90%, 420px); height: 430px; margin: auto; }
+      .menu-grid { grid-template-columns: 1fr 1fr; }
+      .menu-card { min-height: 160px; padding: 14px; }
+      .gallery-grid { grid-template-columns: 1fr 1fr; }
+      .photo { height: 300px; }
+      .reason-grid { grid-template-columns: 1fr; }
+      .reason { min-height: 0; }
+      .floating-flower { opacity: .35; }
+    }
+
+    @media (max-width: 520px) {
+      .hero-content { padding: 100px 0 85px; }
+      .hero h1 { font-size: clamp(3.1rem, 14vw, 4.5rem); overflow-wrap: anywhere; }
+      .gate h2 { font-size: clamp(2.6rem, 12vw, 4rem); }
+      .gift { width: 90px; height: 90px; font-size: 3.2rem; }
+      .gallery-grid, .choices { grid-template-columns: 1fr; }
+      .photo { height: 390px; }
+      .filmstrip { justify-content: flex-start; }
+      .letter-text { font-size: 1.06rem; }
+      .music { bottom: 12px; right: 12px; }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      *, *::before, *::after { animation-duration: .01ms !important; transition-duration: .01ms !important; scroll-behavior: auto !important; }
+      .reveal { opacity: 1; transform: none; }
+      .petal { display: none; }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="gate" id="gate">
+    <div class="gate-content">
+      <div class="gift" aria-hidden="true">🎁</div>
+      <p class="label">Ada sesuatu untukmu</p>
+      <h2>Hari ini tentang kamu.</h2>
+      <p>Siapkan senyum terbaikmu. Ada cerita, kenangan, dan banyak rasa sayang di balik hadiah kecil ini.</p>
+      <button class="button" id="openGift" type="button">Buka hadiah ♡</button>
+
+      <div class="code-panel" id="codePanel">
+        <h3>Kode kecil kita ♡</h3>
+        <p id="codeHint"></p>
+        <div class="dots" id="dots"><i></i><i></i><i></i><i></i></div>
+        <div class="keypad" id="keypad"></div>
+        <p id="codeMessage" aria-live="polite"></p>
+        <button class="skip" id="skipCode" type="button">Lewati dan lihat hadiahnya</button>
+      </div>
+    </div>
+  </div>
+
+  <div id="petals" aria-hidden="true"></div>
+
+  <header class="hero" id="beranda">
+    <nav class="nav wrap">
+      <span class="brand">Untukmu ♡</span>
+      <a href="#surat">Surat kecil ↗</a>
+    </nav>
+
+    <span class="floating-flower flower-left" aria-hidden="true">🌸</span>
+    <span class="floating-flower flower-right" aria-hidden="true">✿</span>
+
+    <div class="wrap hero-content">
+      <p class="label" id="heroDate">Hari yang paling istimewa</p>
+      <h1>Selamat<br>ulang tahun,<br><em id="heroName">Sayang.</em></h1>
+      <p>Hari ini dunia merayakan hadirnya seseorang yang membuat hari-hariku lebih hangat. Halaman kecil ini kubuat khusus untukmu. ♡</p>
+      <a href="#menu" class="button">Lihat hadiahnya <span>↗</span></a>
+    </div>
+    <div class="scroll-hint">Gulir perlahan ↓</div>
+  </header>
+
+  <main>
+    <section class="intro center">
+      <div class="wrap reveal">
+        <p class="label">Untuk seseorang yang paling berarti</p>
+        <h2>Sejak ada kamu, hal-hal sederhana terasa lebih indah.</h2>
+        <div class="ornament">✦ ♡ ✦</div>
+        <p>Mungkin aku tidak selalu pandai merangkai kata. Tapi hari ini aku ingin kamu tahu bahwa kehadiranmu adalah salah satu hal paling berharga yang pernah datang dalam hidupku. Terima kasih sudah menjadi kamu.</p>
+      </div>
+    </section>
+
+    <section class="menu center" id="menu">
+      <div class="wrap reveal">
+        <p class="label">Empat kejutan kecil</p>
+        <h2>Pilih yang membuatmu penasaran.</h2>
+        <p>Semuanya kusimpan untukmu, satu per satu.</p>
+        <div class="menu-grid">
+          <a href="#kenangan" class="menu-card"><span>📷</span><strong>Foto kita</strong><small>Potongan kenangan</small></a>
+          <a href="#harapan" class="menu-card"><span>💝</span><strong>Harapan</strong><small>Doa untukmu</small></a>
+          <button class="menu-card" id="menuMusic" type="button"><span>🎵</span><strong>Lagu kita</strong><small>Putar musik</small></button>
+          <a href="#film" class="menu-card"><span>🎬</span><strong>Video spesial</strong><small>Cerita bergerak</small></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="story" id="cerita">
+      <div class="wrap story-grid">
+        <div class="portrait reveal">
+          <div class="fallback">Tempat foto<br>favorit kita ♡</div>
+          <img src="foto/kita.jpg" alt="Foto kita berdua" onerror="this.remove()">
+        </div>
+        <div class="story-copy reveal">
+          <p class="label">Bab favorit dalam hidupku</p>
+          <h2>Kalau ditanya tentang rumah, aku teringat kamu.</h2>
+          <p>Ada banyak cerita yang sudah kita lalui. Tawa yang datang tiba-tiba, obrolan panjang tentang apa saja, dan hari-hari sulit yang kita hadapi pelan-pelan. Semuanya menjadi kenangan yang ingin kusimpan baik-baik.</p>
+          <p>Bersamamu aku belajar bahwa bahagia tidak selalu harus berupa sesuatu yang besar. Kadang cukup mendengar ceritamu, melihat senyummu, atau tahu bahwa kita saling ada.</p>
+          <div class="quote">“Di antara begitu banyak kemungkinan, aku bersyukur jalan hidup mempertemukan kita.”</div>
+          <p>Semoga masih ada banyak hari untuk menciptakan cerita baru bersama.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="quiz center" id="permainan">
+      <div class="wrap reveal">
+        <p class="label">Pertanyaan kecil untukmu</p>
+        <h2>Main sebentar, yuk?</h2>
+        <div class="quiz-box">
+          <p id="questionNumber" class="label">1 / 3</p>
+          <h3 id="questionText"></h3>
+          <p>Pilih jawaban yang paling romantis. ♡</p>
+          <div class="choices" id="choices"></div>
+          <div class="feedback" id="feedback" aria-live="polite"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="center" id="kenangan">
+      <div class="wrap">
+        <div class="reveal">
+          <p class="label">Potongan cerita kita</p>
+          <h2>Kenangan yang ingin kuulang.</h2>
+          <p>Setiap foto punya ceritanya sendiri. Sentuh fotonya untuk melihat lebih dekat.</p>
+        </div>
+        <div class="gallery-grid" id="gallery"></div>
+      </div>
+    </section>
+
+    <section class="reasons center">
+      <div class="wrap">
+        <div class="reveal">
+          <p class="label">Hal-hal kecil yang aku suka</p>
+          <h2>Enam alasan dari ribuan alasan.</h2>
+        </div>
+        <div class="reason-grid" id="reasons"></div>
+      </div>
+    </section>
+
+    <section class="film center" id="film">
+      <div class="wrap reveal">
+        <p class="label">Our little moments</p>
+        <h2>Film kecil tentang kita.</h2>
+        <p class="film-intro">Ada perasaan yang sulit dijelaskan dengan kata-kata. Mungkin gambar dan suara bisa sedikit mewakilinya.</p>
+        <div class="screen">
+          <video controls playsinline preload="metadata" poster="foto/video-cover.jpg">
+            <source src="video-kita.mp4" type="video/mp4">
+            Browser ini tidak mendukung video.
+          </video>
+        </div>
+        <div class="filmstrip" id="filmstrip"></div>
+        <p class="video-note">Tambahkan file <b>video-kita.mp4</b> agar video pribadi kalian tampil di sini.</p>
+      </div>
+    </section>
+
+    <section class="letter" id="surat">
+      <div class="wrap">
+        <article class="letter-card reveal">
+          <p class="label">Surat kecil untukmu</p>
+          <h2>Untuk kamu, di hari ulang tahunmu.</h2>
+
+          <button class="envelope" id="openLetter" type="button" aria-expanded="false">
+            <span>
+              <span class="seal">♡</span>
+              <strong>Untuk <span id="letterName">kamu</span></strong>
+              <small>Sentuh untuk membuka surat</small>
+            </span>
+          </button>
+
+          <div class="letter-text" id="letterText">
+            <p>Sayang, selamat ulang tahun. Hari ini aku ingin berhenti sejenak dari segala kesibukan dan mengingatkanmu betapa berharganya dirimu. Aku bangga melihat kamu terus tumbuh, terus mencoba, dan tetap menjadi orang yang penuh kasih, bahkan ketika harimu tidak selalu mudah.</p>
+            <p>Terima kasih untuk setiap perhatian kecil, untuk cerita yang kamu bagi, dan untuk cara kamu membuatku merasa diterima. Aku tahu kita tidak selalu punya hari yang sempurna. Namun, aku berharap kita selalu punya keberanian untuk saling mendengarkan, memahami, dan memilih satu sama lain.</p>
+            <p>Di usia yang baru ini, semoga kamu makin dekat dengan mimpi-mimpimu. Semoga langkahmu dipenuhi hal baik, hatimu lebih sering tenang, dan senyummu lebih sering hadir. Kalau suatu hari kamu lelah, ingat bahwa kamu tidak harus menghadapi semuanya sendirian.</p>
+            <p>Aku sayang kamu. Hari ini, besok, dan di setiap hari ketika kita masih bisa saling menggenggam. Selamat ulang tahun, cintaku. ♡</p>
+            <div class="signature" id="signature">Dengan cinta, aku</div>
+          </div>
+          <button class="letter-skip" id="skipLetter" type="button">Tampilkan seluruh surat ♡</button>
+        </article>
+      </div>
+    </section>
+
+    <section class="wish center" id="harapan">
+      <div class="wrap reveal">
+        <p class="label">Untuk tahun yang baru</p>
+        <h2>Ambil satu harapan untukmu.</h2>
+        <p>Setiap kali kamu menekan hadiah ini, ada satu doa kecil dariku.</p>
+        <button class="wish-button" id="wishButton" type="button" aria-label="Ambil harapan">💝</button>
+        <div class="wish-output" id="wishOutput" aria-live="polite">Satu harapan manis sedang menunggumu...</div>
+      </div>
+    </section>
+
+    <section class="ending center">
+      <div class="wrap reveal">
+        <p class="label">Satu hal lagi...</p>
+        <h2>Masih ada pesan kecil untukmu ♡</h2>
+        <p>Kalau kamu sudah sampai di sini, berarti kamu sudah membaca sedikit dari banyaknya rasa sayang yang ingin kusampaikan.</p>
+        <button class="button" id="surpriseButton" type="button">Klik untuk kejutan ✨</button>
+        <div class="secret" id="secret">
+          <h3>Permintaanku sederhana...</h3>
+          <p>Teruslah jadi dirimu sendiri. Jangan lupa bahagia, jangan terlalu keras pada diri sendiri, dan izinkan aku menemanimu di banyak ulang tahun berikutnya. I love you, always. 🤍</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    Dibuat dengan sepenuh hati untuk <span id="footerName">Sayang</span> ♡
+  </footer>
+
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Foto kenangan">
+    <button class="lightbox-close" id="closePhoto" type="button" aria-label="Tutup foto">×</button>
+    <div class="lightbox-content">
+      <img id="largePhoto" alt="">
+      <h3 id="photoTitle"></h3>
+      <p id="photoStory"></p>
+      <div class="lightbox-controls">
+        <button id="previousPhoto" type="button" aria-label="Foto sebelumnya">‹</button>
+        <span id="photoCounter"></span>
+        <button id="nextPhoto" type="button" aria-label="Foto berikutnya">›</button>
+      </div>
+    </div>
+  </div>
+
+  <button class="music" id="musicButton" type="button">♫ Putar musik</button>
+  <audio id="music" src="musik.mp3" preload="none" loop></audio>
+
+  <script>
+    // =========================================================
+    // PENGATURAN: GANTI BAGIAN INI SESUAI CERITA KALIAN
+    // =========================================================
+    const data = {
+      namaPacar: "Sayang",
+      namaKamu: "Aku",
+      tanggal: "Hari yang paling istimewa",
+      kodeRahasia: "1234",
+      petunjukKode: "Petunjuk: empat angka yang mudah diingat",
+
+      foto: [
+        { file: "foto/kenangan-1.jpg", judul: "Hari yang menyenangkan", cerita: "Satu hari sederhana yang terasa begitu istimewa." },
+        { file: "foto/kenangan-2.jpg", judul: "Tawa yang tak terlupakan", cerita: "Semoga kita selalu punya alasan untuk tertawa bersama." },
+        { file: "foto/kenangan-3.jpg", judul: "Tempat favoritku", cerita: "Bukan tempatnya, tetapi karena aku ada di sana bersamamu." },
+        { file: "foto/kenangan-4.jpg", judul: "Cerita kecil kita", cerita: "Momen singkat yang akan selalu kusimpan." },
+        { file: "foto/kenangan-5.jpg", judul: "Senyum favoritku", cerita: "Senyum yang selalu ingin kulihat setiap hari." },
+        { file: "foto/kenangan-6.jpg", judul: "Kita, hari ini dan nanti", cerita: "Untuk perjalanan yang masih menunggu kita." }
+      ],
+
+      alasan: [
+        ["Senyummu", "Ada rasa tenang setiap kali aku melihatmu tersenyum."],
+        ["Caramu peduli", "Hal-hal kecil yang kamu lakukan selalu terasa besar bagiku."],
+        ["Cerita-ceritamu", "Aku suka mendengar tentang harimu, bahkan bagian yang menurutmu biasa saja."],
+        ["Semangatmu", "Aku kagum pada caramu terus melangkah dan mencoba lagi."],
+        ["Tawa kita", "Bersamamu, hal paling sederhana pun jadi kenangan indah."],
+        ["Karena kamu adalah kamu", "Kamu tidak perlu menjadi siapa pun selain dirimu sendiri untuk membuatku jatuh cinta."]
+      ],
+
+      pertanyaan: [
+        { tanya: "Siapa yang paling membuat hari-hariku berwarna?", opsi: ["Kamu, tentu saja ♡", "Lampu kamar", "Kopi pagi", "Matahari"], benar: 0 },
+        { tanya: "Dengan siapa aku ingin menghabiskan satu hari bebas?", opsi: ["Bantal", "Kamu ♡", "Televisi", "Pekerjaan"], benar: 1 },
+        { tanya: "Apa hadiah terbaik yang pernah kuterima?", opsi: ["Kue", "Libur panjang", "Bertemu denganmu ♡", "Sepatu baru"], benar: 2 }
+      ],
+
+      harapan: [
+        "Semoga semua mimpi yang kamu perjuangkan pelan-pelan menjadi nyata.",
+        "Semoga hatimu lebih sering tenang dan hari-harimu penuh tawa.",
+        "Semoga kamu selalu dikelilingi orang-orang yang menyayangimu dengan tulus.",
+        "Semoga kita punya lebih banyak waktu untuk membuat kenangan bersama.",
+        "Semoga kamu tidak pernah lupa betapa luar biasanya dirimu di mataku."
+      ]
+    };
+    // =========================================================
+
+    const $ = (selector) => document.querySelector(selector);
+    const reduceMotion = matchMedia("(prefers-reduced-motion: reduce)").matches;
+    const onPhone = matchMedia("(max-width: 760px)").matches;
+
+    $("#heroName").textContent = data.namaPacar + ".";
+    $("#heroDate").textContent = data.tanggal;
+    $("#letterName").textContent = data.namaPacar;
+    $("#footerName").textContent = data.namaPacar;
+    $("#signature").textContent = "Dengan cinta, " + data.namaKamu;
+    document.title = "Selamat Ulang Tahun, " + data.namaPacar + " ♡";
+
+    /* Animasi kelopak yang ringan di HP */
+    if (!reduceMotion) {
+      const jumlah = onPhone ? 9 : 18;
+      for (let i = 0; i < jumlah; i++) {
+        const petal = document.createElement("span");
+        petal.className = "petal";
+        petal.style.left = Math.random() * 100 + "vw";
+        petal.style.setProperty("--duration", (7 + Math.random() * 7) + "s");
+        petal.style.setProperty("--delay", (-Math.random() * 15) + "s");
+        petal.style.setProperty("--drift", (Math.random() * 180 - 90) + "px");
+        $("#petals").append(petal);
+      }
+    }
+
+    function confetti(jumlah = 35) {
+      if (reduceMotion) return;
+      if (onPhone) jumlah = Math.min(jumlah, 24);
+
+      for (let i = 0; i < jumlah; i++) {
+        const item = document.createElement("span");
+        item.className = "confetti";
+        item.style.left = Math.random() * 100 + "vw";
+        item.style.background = ["#f5bbc9", "#ffe1a8", "#ffffff", "#ba91b4"][i % 4];
+        item.style.setProperty("--side", (Math.random() * 180 - 90) + "px");
+        item.style.setProperty("--time", (2.5 + Math.random() * 2) + "s");
+        item.style.animationDelay = Math.random() * .7 + "s";
+        document.body.append(item);
+        setTimeout(() => item.remove(), 5500);
+      }
+    }
+
+    /* Pembuka dan kode */
+    $("#openGift").addEventListener("click", () => {
+      $("#openGift").hidden = true;
+      $("#codePanel").classList.add("show");
+      $("#codeHint").textContent = data.petunjukKode;
+    });
+
+    let angka = "";
+    const tombol = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "⌫", "0", "↵"];
+
+    function perbaruiTitik() {
+      document.querySelectorAll("#dots i").forEach((dot, index) => {
+        dot.classList.toggle("filled", index < angka.length);
+      });
+    }
+
+    function masuk() {
+      $("#gate").classList.add("closed");
+      confetti(60);
+      setTimeout(() => $("#gate").remove(), 700);
+    }
+
+    tombol.forEach((nilai) => {
+      const button = document.createElement("button");
+      button.type = "button";
+      button.textContent = nilai;
+      button.setAttribute("aria-label", nilai === "⌫" ? "Hapus" : nilai === "↵" ? "Buka hadiah" : "Angka " + nilai);
+
+      button.addEventListener("click", () => {
+        if (nilai === "⌫") {
+          angka = angka.slice(0, -1);
+        } else if (nilai === "↵") {
+          if (angka === data.kodeRahasia) masuk();
+          else {
+            angka = "";
+            $("#codeMessage").textContent = "Belum tepat. Coba lagi atau tekan Lewati ♡";
+          }
+        } else if (angka.length < 4) {
+          angka += nilai;
+          if (angka.length === 4 && angka === data.kodeRahasia) masuk();
+        }
+        perbaruiTitik();
+      });
+      $("#keypad").append(button);
+    });
+
+    $("#skipCode").addEventListener("click", masuk);
+
+    /* Musik */
+    const music = $("#music");
+    $("#musicButton").addEventListener("click", async () => {
+      if (!music.paused) {
+        music.pause();
+        $("#musicButton").textContent = "♫ Putar musik";
+        return;
+      }
+      try {
+        await music.play();
+        $("#musicButton").textContent = "Ⅱ Jeda musik";
+      } catch {
+        $("#musicButton").textContent = "Tambahkan musik.mp3";
       }
     });
-  }, {threshold:0.08, rootMargin:'0px 0px 80px 0px'});
-  jobs.forEach((_, element) => observer.observe(element));
-  // Pembuka terlihat sejak awal; tidak perlu menunggu pengguna menggulir.
-  jobs.forEach((_, element) => {
-    if (element.closest('.gate') && !element.closest('.code-panel')) type(element);
-  });
-})();
+    $("#menuMusic").addEventListener("click", () => $("#musicButton").click());
 
-// Surat diketik paragraf demi paragraf setelah amplop dibuka.
-(function initLetter(){
-  const card=document.querySelector('.letter-card');
-  const paragraphs=[...card.querySelectorAll('.letter-text p')];
-  const originals=paragraphs.map(p=>p.textContent);
-  const signature=card.querySelector('.signature');
-  const originalSignature=signature.textContent;
-  const button=document.getElementById('openLetter');
-  const skip=document.getElementById('skipLetter');
-  document.getElementById('letterName').textContent=data.namaPacar;
-  let finished=false;
-  let runId=0;
-  card.classList.add('js-letter');
-  paragraphs.forEach((p,i)=>{p.setAttribute('aria-label',originals[i]);p.textContent='';});
-  signature.textContent='';
-  function showAll(){
-    finished=true;runId++;
-    paragraphs.forEach((p,i)=>{p.textContent=originals[i];p.classList.remove('ink-writing')});
-    signature.textContent=originalSignature;
-    skip.hidden=true;
-  }
-  function writeParagraph(index,currentRun){
-    if(finished||runId!==currentRun)return;
-    if(index>=paragraphs.length){
-      signature.textContent=originalSignature;
-      skip.hidden=true;
-      launchConfetti(22);
-      return;
+    /* Foto */
+    data.foto.forEach((item, index) => {
+      const card = document.createElement("div");
+      card.className = "photo-card reveal";
+      card.innerHTML = `
+        <div class="photo" role="button" tabindex="0" aria-label="Buka foto ${index + 1}">
+          <div class="fallback">Kenangan ${index + 1} ♡</div>
+          <img src="${item.file}" alt="">
+        </div>
+        <p><b></b><br><span></span></p>
+      `;
+      card.querySelector("img").alt = item.judul;
+      card.querySelector("img").onerror = function () { this.remove(); };
+      card.querySelector("b").textContent = item.judul;
+      card.querySelector("p span").textContent = item.cerita;
+      card.querySelector(".photo").addEventListener("click", () => bukaFoto(index));
+      card.querySelector(".photo").addEventListener("keydown", (event) => {
+        if (event.key === "Enter" || event.key === " ") {
+          event.preventDefault();
+          bukaFoto(index);
+        }
+      });
+      $("#gallery").append(card);
+
+      const cuplikan = document.createElement("img");
+      cuplikan.src = item.file;
+      cuplikan.alt = item.judul;
+      cuplikan.loading = "lazy";
+      cuplikan.onerror = () => cuplikan.remove();
+      $("#filmstrip").append(cuplikan);
+    });
+
+    let fotoAktif = 0;
+    function bukaFoto(index) {
+      fotoAktif = (index + data.foto.length) % data.foto.length;
+      const item = data.foto[fotoAktif];
+      $("#largePhoto").src = item.file;
+      $("#largePhoto").alt = item.judul;
+      $("#photoTitle").textContent = item.judul;
+      $("#photoStory").textContent = item.cerita;
+      $("#photoCounter").textContent = `${fotoAktif + 1} / ${data.foto.length}`;
+      $("#lightbox").classList.add("show");
+      $("#closePhoto").focus();
     }
-    const p=paragraphs[index],value=originals[index];
-    p.classList.add('ink-writing');
-    const duration=Math.min(4900,Math.max(1800,value.length*20));
-    let start=0,last=-1;
-    function frame(time){
-      if(finished||runId!==currentRun)return;
-      if(!start)start=time;
-      const count=Math.min(value.length,Math.ceil((time-start)/duration*value.length));
-      if(count!==last){p.textContent=value.slice(0,count);last=count}
-      if(count<value.length)requestAnimationFrame(frame);
-      else{p.classList.remove('ink-writing');setTimeout(()=>writeParagraph(index+1,currentRun),250)}
+    function tutupFoto() { $("#lightbox").classList.remove("show"); }
+    $("#closePhoto").addEventListener("click", tutupFoto);
+    $("#previousPhoto").addEventListener("click", () => bukaFoto(fotoAktif - 1));
+    $("#nextPhoto").addEventListener("click", () => bukaFoto(fotoAktif + 1));
+    $("#lightbox").addEventListener("click", (event) => {
+      if (event.target === $("#lightbox")) tutupFoto();
+    });
+    document.addEventListener("keydown", (event) => {
+      if (!$("#lightbox").classList.contains("show")) return;
+      if (event.key === "Escape") tutupFoto();
+      if (event.key === "ArrowLeft") bukaFoto(fotoAktif - 1);
+      if (event.key === "ArrowRight") bukaFoto(fotoAktif + 1);
+    });
+
+    /* Alasan */
+    data.alasan.forEach(([judul, isi], index) => {
+      const card = document.createElement("article");
+      card.className = "reason reveal";
+      const nomor = document.createElement("span");
+      nomor.className = "number";
+      nomor.textContent = String(index + 1).padStart(2, "0");
+      const heading = document.createElement("h3");
+      heading.textContent = judul;
+      const paragraf = document.createElement("p");
+      paragraf.textContent = isi;
+      card.append(nomor, heading, paragraf);
+      $("#reasons").append(card);
+    });
+
+    /* Kuis */
+    let nomorSoal = 0;
+    function tampilkanSoal() {
+      const soal = data.pertanyaan[nomorSoal];
+      $("#questionNumber").textContent = `${nomorSoal + 1} / ${data.pertanyaan.length}`;
+      $("#questionText").textContent = soal.tanya;
+      $("#feedback").textContent = "";
+      $("#choices").replaceChildren();
+
+      soal.opsi.forEach((jawaban, index) => {
+        const button = document.createElement("button");
+        button.type = "button";
+        button.textContent = jawaban;
+        button.addEventListener("click", () => {
+          if (index !== soal.benar) {
+            $("#feedback").textContent = "Hehe, coba pilih yang paling romantis ♡";
+            return;
+          }
+
+          $("#feedback").textContent = "Benar! Kamu memang jawaban favoritku ♡";
+          $("#choices").querySelectorAll("button").forEach((item) => item.disabled = true);
+          setTimeout(() => {
+            nomorSoal++;
+            if (nomorSoal < data.pertanyaan.length) tampilkanSoal();
+            else {
+              $("#questionNumber").textContent = "Selesai ♡";
+              $("#questionText").textContent = "Selamat! Kamu memenangkan seluruh hatiku.";
+              $("#choices").replaceChildren();
+              $("#feedback").textContent = "Sekarang lihat kenangan kita, yuk!";
+              confetti(60);
+            }
+          }, 900);
+        });
+        $("#choices").append(button);
+      });
     }
-    requestAnimationFrame(frame);
-  }
-  button.addEventListener('click',()=>{
-    button.hidden=true;
-    button.setAttribute('aria-expanded','true');
-    card.classList.add('opened');
-    if(window.matchMedia('(prefers-reduced-motion: reduce)').matches)showAll();
-    else{skip.hidden=false;writeParagraph(0,++runId)}
-  });
-  skip.addEventListener('click',showAll);
-})();
-</script>
+    tampilkanSoal();
+
+    /* Harapan dan kejutan */
+    let nomorHarapan = -1;
+    $("#wishButton").addEventListener("click", () => {
+      nomorHarapan = (nomorHarapan + 1) % data.harapan.length;
+      $("#wishOutput").textContent = "“" + data.harapan[nomorHarapan] + "”";
+      confetti(18);
+    });
+    $("#surpriseButton").addEventListener("click", () => {
+      $("#secret").classList.add("show");
+      $("#surpriseButton").textContent = "Kejutannya untukmu ♡";
+      confetti(45);
+    });
+
+    /* Tulisan muncul saat digulir; di HP hanya teks pendek agar tetap ringan */
+    const elemenKetik = [...document.querySelectorAll(
+      onPhone
+        ? ".gate h2, .hero h1, section h2, .reason h3"
+        : ".gate h2, .hero h1, section h2, section h3, .quote, .reason p"
+    )].filter((element) => !element.closest(".letter-text") && !element.id);
+
+    const pekerjaan = new Map();
+
+    if (!reduceMotion) {
+      elemenKetik.forEach((element) => {
+        const walker = document.createTreeWalker(element, NodeFilter.SHOW_TEXT);
+        const nodes = [];
+        while (walker.nextNode()) nodes.push(walker.currentNode);
+        const original = nodes.map((node) => node.nodeValue);
+        const panjang = original.reduce((total, teks) => total + teks.length, 0);
+        if (!panjang) return;
+
+        element.setAttribute("aria-label", element.textContent.trim());
+        nodes.forEach((node) => node.nodeValue = "");
+        pekerjaan.set(element, { nodes, original, panjang, mulai: false });
+      });
+
+      function ketikElemen(element) {
+        const tugas = pekerjaan.get(element);
+        if (!tugas || tugas.mulai) return;
+        tugas.mulai = true;
+        element.classList.add("typing");
+
+        const durasi = Math.min(2700, Math.max(700, tugas.panjang * 25));
+        let awal = 0;
+
+        function frame(waktu) {
+          if (!awal) awal = waktu;
+          let sisa = Math.min(tugas.panjang, Math.ceil((waktu - awal) / durasi * tugas.panjang));
+
+          tugas.nodes.forEach((node, index) => {
+            const teks = tugas.original[index];
+            node.nodeValue = teks.slice(0, Math.min(teks.length, sisa));
+            sisa = Math.max(0, sisa - teks.length);
+          });
+
+          if (waktu - awal < durasi) requestAnimationFrame(frame);
+          else {
+            tugas.nodes.forEach((node, index) => node.nodeValue = tugas.original[index]);
+            element.classList.remove("typing");
+          }
+        }
+        requestAnimationFrame(frame);
+      }
+
+      const typeObserver = new IntersectionObserver((entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            ketikElemen(entry.target);
+            typeObserver.unobserve(entry.target);
+          }
+        });
+      }, { threshold: .08, rootMargin: "0px 0px 90px 0px" });
+
+      pekerjaan.forEach((_, element) => typeObserver.observe(element));
+      ketikElemen($(".gate h2"));
+    }
+
+    /* Surat diketik paragraf demi paragraf */
+    const surat = $("#letterText");
+    const paragrafSurat = [...surat.querySelectorAll("p")];
+    const isiAsli = paragrafSurat.map((p) => p.textContent);
+    const tandaTangan = $("#signature").textContent;
+    let suratSelesai = false;
+    let putaran = 0;
+
+    paragrafSurat.forEach((p) => p.textContent = "");
+    $("#signature").textContent = "";
+
+    function tampilkanSeluruhSurat() {
+      suratSelesai = true;
+      putaran++;
+      paragrafSurat.forEach((p, index) => {
+        p.textContent = isiAsli[index];
+        p.classList.remove("typing");
+      });
+      $("#signature").textContent = tandaTangan;
+      $("#skipLetter").style.display = "none";
+    }
+
+    function ketikParagraf(index, sesi) {
+      if (suratSelesai || sesi !== putaran) return;
+      if (index >= paragrafSurat.length) {
+        $("#signature").textContent = tandaTangan;
+        $("#skipLetter").style.display = "none";
+        confetti(20);
+        return;
+      }
+
+      const p = paragrafSurat[index];
+      const teks = isiAsli[index];
+      const durasi = onPhone
+        ? Math.min(3200, Math.max(1300, teks.length * 15))
+        : Math.min(4500, Math.max(1800, teks.length * 20));
+      let awal = 0;
+      p.classList.add("typing");
+
+      function frame(waktu) {
+        if (suratSelesai || sesi !== putaran) return;
+        if (!awal) awal = waktu;
+        const jumlah = Math.min(teks.length, Math.ceil((waktu - awal) / durasi * teks.length));
+        p.textContent = teks.slice(0, jumlah);
+
+        if (jumlah < teks.length) requestAnimationFrame(frame);
+        else {
+          p.classList.remove("typing");
+          setTimeout(() => ketikParagraf(index + 1, sesi), 220);
+        }
+      }
+      requestAnimationFrame(frame);
+    }
+
+    $("#openLetter").addEventListener("click", () => {
+      $("#openLetter").style.display = "none";
+      $("#openLetter").setAttribute("aria-expanded", "true");
+      surat.classList.add("open");
+
+      if (reduceMotion) tampilkanSeluruhSurat();
+      else {
+        $("#skipLetter").style.display = "inline-block";
+        ketikParagraf(0, ++putaran);
+      }
+    });
+    $("#skipLetter").addEventListener("click", tampilkanSeluruhSurat);
+
+    /* Bagian halaman muncul saat digulir */
+    if ("IntersectionObserver" in window) {
+      const revealObserver = new IntersectionObserver((entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add("visible");
+            revealObserver.unobserve(entry.target);
+          }
+        });
+      }, { threshold: .08, rootMargin: "0px 0px 90px 0px" });
+
+      document.querySelectorAll(".reveal").forEach((element) => revealObserver.observe(element));
+    } else {
+      document.querySelectorAll(".reveal").forEach((element) => element.classList.add("visible"));
+    }
+  </script>
 </body>
 </html>
