@@ -141,13 +141,16 @@
         radial-gradient(circle at 75% 35%, #925b79, transparent 35%),
         linear-gradient(130deg, #2d1b30, #68405a 70%, #302037);
     }
-    .hero::before {
-      content: "";
-      position: absolute;
-      inset: 0;
-      background: url("foto/utama.jpeg") center/cover;
-      opacity: .25;
-    }
+   .hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: url("foto/utama.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center 75%;
+  opacity: .35;
+}
     .hero::after {
       content: "";
       position: absolute;
