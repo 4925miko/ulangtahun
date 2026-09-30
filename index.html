@@ -351,12 +351,6 @@
       .letter-text { font-size: 1.06rem; }
       .music { bottom: 12px; right: 12px; }
     }
-
-    @media (prefers-reduced-motion: reduce) {
-      *, *::before, *::after { animation-duration: .01ms !important; transition-duration: .01ms !important; scroll-behavior: auto !important; }
-      .reveal { opacity: 1; transform: none; }
-      .petal { display: none; }
-    }
   </style>
 </head>
 
@@ -609,7 +603,7 @@
     // =========================================================
 
     const $ = (selector) => document.querySelector(selector);
-    const reduceMotion = matchMedia("(prefers-reduced-motion: reduce)").matches;
+    const reduceMotion = false;
     const onPhone = matchMedia("(max-width: 760px)").matches;
 
     $("#heroName").textContent = data.namaPacar + ".";
